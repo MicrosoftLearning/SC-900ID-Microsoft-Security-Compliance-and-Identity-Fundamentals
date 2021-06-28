@@ -1,25 +1,25 @@
 ---
-title: Online Hosted Instructions
+title: Petunjuk Host Online
 permalink: index.html
 layout: home
 ---
 
-# Content Directory
+# Direktori Konten
 
-Hyperlinks to each of the lab exercises and demos are listed below.
+Hyperlink ke masing-masing latihan dan demo lab tercantum di bawah ini.
 
-## Labs
+## Lab
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Module | Lab |
+| Modul | Lab |
 | --- | --- | 
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## Demos
+## Demo
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Module | Demo |
+| Modul | Demo |
 | --- | --- | 
 {% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
