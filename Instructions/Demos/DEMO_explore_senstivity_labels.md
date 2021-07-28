@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Label sensitivitas di Microsoft 365'
     module: 'Modul 4 Pelajaran 2: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan proteksi informasi dan kemampuan tata kelola Microsoft 365'
