@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Pusat Keamanan Azure'
     module: 'Modul 3 Pelajaran 2: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan kemampuan manajemen keamanan Azure'
