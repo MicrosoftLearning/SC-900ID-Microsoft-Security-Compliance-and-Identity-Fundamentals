@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Service Trust Portal'
     module: 'Modul 1 Pelajaran 2: Menjelaskan prinsip keamanan dan kepatuhan Microsoft: Menjelajahi Service Trust Portal'
