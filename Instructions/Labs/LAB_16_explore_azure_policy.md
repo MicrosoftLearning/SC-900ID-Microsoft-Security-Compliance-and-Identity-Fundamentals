@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Mempelajari Azure Policy'
     modul: 'Modul 4 Pelajaran 5: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan Azure Policy'

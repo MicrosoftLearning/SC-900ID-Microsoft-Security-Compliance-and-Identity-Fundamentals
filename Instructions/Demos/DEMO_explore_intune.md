@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Microsoft Intune'
     module: 'Modul 3 Pelajaran 6: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan keamanan titik akhir dengan Microsoft Intune'

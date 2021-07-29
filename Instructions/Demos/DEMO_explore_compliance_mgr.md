@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Menjelajahi pusat kepatuhan & Pengelola Kepatuhan Microsoft 365'
     module: 'Modul 4 Pelajaran 1: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan kemampuan manajemen kepatuhan di Microsoft'

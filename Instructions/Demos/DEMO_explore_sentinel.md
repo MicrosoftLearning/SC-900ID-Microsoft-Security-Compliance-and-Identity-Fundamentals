@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Azure Sentinel'
     module: 'Modul 3 Pelajaran 3: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan kemampuan keamanan Azure Sentinel'

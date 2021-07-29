@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Mempelajari alur kerja Core eDiscovery'
     modul: 'Modul 4 Pelajaran 4: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan kemampuan eDiscovery dan audit Microsoft 365'

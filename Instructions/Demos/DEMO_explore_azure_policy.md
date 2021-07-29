@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Azure Policy'
     module: 'Modul 4 Pelajaran 5: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan Azure Policy'

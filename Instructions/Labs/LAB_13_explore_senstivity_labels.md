@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Mempelajari label sensitivitas di Microsoft 365'
     module: 'Modul 4 Pelajaran 2: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan perlindungan informasi dan kemampuan tata kelola Microsoft 365'

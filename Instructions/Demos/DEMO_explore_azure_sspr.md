@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Pengaturan ulang kata sandi mandiri Azure Active Directory'
     module: 'Modul 2 Pelajaran 2: Menjelaskan kemampuan Microsoft Identity dan solusi manajemen akses: Menjelaskan metode autentikasi lain dari Microsoft Azure AD'

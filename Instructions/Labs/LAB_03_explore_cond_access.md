@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Menjelajahi manajemen akses di Azure AD dengan Bersyarat'
     module: 'Modul 2 Pelajaran 3: Menjelaskan kemampuan Microsoft Identity dan solusi manajemen akses: Mempelajari kemampuan manajemen akses Microsoft Azure AD'

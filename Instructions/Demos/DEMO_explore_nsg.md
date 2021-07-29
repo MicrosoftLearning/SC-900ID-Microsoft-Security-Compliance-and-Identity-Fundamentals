@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Grup Keamanan Jaringan Azure (NSG)'
     module: 'Modul 3 Pelajaran 1: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan kemampuan keamanan dasar di Azure.'
