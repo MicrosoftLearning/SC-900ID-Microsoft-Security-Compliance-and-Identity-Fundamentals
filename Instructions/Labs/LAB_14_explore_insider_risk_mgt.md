@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Mempelajari Manajemen Risiko Dari Dalam di Microsoft 365'
     module: 'Modul 4 Pelajaran 3: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan kemampuan risiko dari dalam di Microsoft 365'
