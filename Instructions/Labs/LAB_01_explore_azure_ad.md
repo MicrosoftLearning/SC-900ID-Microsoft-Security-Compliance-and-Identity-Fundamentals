@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Menjelajahi Azure Active Directory'
     module: 'Modul 2 Pelajaran 1: Menjelaskan kemampuan Microsoft Identity dan solusi manajemen akses: Menjelajahi jenis layanan dan identitas Microsoft Azure AD'
