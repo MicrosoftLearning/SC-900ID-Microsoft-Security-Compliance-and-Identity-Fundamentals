@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Mempelajari pusat kepatuhan Microsoft 365 & Pengelola Kepatuhan'
     module: 'Modul 4 Pelajaran 1: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan kemampuan manajemen kepatuhan di Microsoft'
