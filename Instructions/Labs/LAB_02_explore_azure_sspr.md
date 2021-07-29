@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Menjelajahi Autentikasi Microsoft Azure AD dengan layanan pengaturan ulang kata sandi mandiri'
     module: 'Modul 2 Pelajaran 2: Menjelaskan kemampuan Microsoft Identity dan solusi manajemen akses: Menjelaskan metode autentikasi lain dari Microsoft Azure AD'
