@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Menjelajahi tata kelola identitas di Microsoft Azure AD dengan Privileged Identity management.'
     module: 'Modul 2 Pelajaran 4: Menjelaskan kemampuan perlindungan dan tata kelola identitas di Azure AD. Penjelasan Perlindungan Identitas Microsoft Azure.'
