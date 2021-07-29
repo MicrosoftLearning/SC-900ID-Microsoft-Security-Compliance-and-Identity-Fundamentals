@@ -28,7 +28,7 @@ Di lab ini, Anda akan mempelajari fungsi kelompok keamanan jaringan di Azure.  A
     1. Langganan: pastikan pengaturan default adalah Azure Pass – Sponsorship.
 
     1. Grup sumber daya:  klik **Create new**, lalu di Bidang nama masukkan **LabsSC900**, lalu klik **OK**.
-    1. Nama komputer virtual:  masukkan ** SC900-WinVM**.
+    1. Nama komputer virtual:  masukkan **SC900-WinVM**.
     1. Image:  di menu tarik-turun, klik **Windows 10 Pro, Version 20H2 – Gen 1**.
     1. Ukuran:  pilih **see all sizes** dari menu tarik-turun dan pilih **B2s**, lalu tekan **Select** di bagian bawah halaman.
     1. Nama pengguna:  masukkan **AzureUser**.
@@ -69,7 +69,7 @@ Di lab ini, Anda akan mempelajari fungsi kelompok keamanan jaringan di Azure.  A
 
     1. Grup sumber daya:  **LabsSC900**
     1. Nama:  **NSG-SC900**
-    1. Kawasan:::  biarkan default **(US) East US**
+    1. Kawasan:  biarkan default **(US) East US**
     1. Pilih **Review + create**, lalu pilih **Create**.
 1. Setelah penyebaran selesai, klik **Go to resource**.
 1. Perhatikan aturan masuk dan keluar secara default di NSG.  Meskipun NSG sudah membuat dan ada aturan default untuk memfilter lalu lintas, tidak ada antarmuka yang pernah dikaitkan dengan NSG, jadi VM masih rentan dengan semua port-nya yang terekspos ke internet publik.
@@ -79,7 +79,7 @@ Di lab ini, Anda akan mempelajari fungsi kelompok keamanan jaringan di Azure.  A
 1. Setelah antarmuka dikaitkan ke NSG, antarmuka akan muncul di daftar.
 1. Dengan antarmuka VM yang dikaitkan dengan kelompok keamanan jaringan dan aturan NSG default, upaya apa pun untuk menghubungkan ke VM akan gagal.  
 1. Di pojok kiri atas halaman, klik **All services**, kemudian di bawah yang bertuliskan unggulan, klik **Virtual Machines**.
-1. Dari halaman Komputer Virtual, pilih ** SC900-WinVM**.
+1. Dari halaman Komputer Virtual, pilih **SC900-WinVM**.
 1. Dari bagian atas halaman **SC900-WinVM**, pilih **Connect**, lalu pilih **RDP**.
 1. Verifikasi alamat IP diatur ke alamat IP Publik, biarkan nomor port default dan pilih **Download DRP file**.
 1. Buka file yang diunduh dan klik **Connect**.

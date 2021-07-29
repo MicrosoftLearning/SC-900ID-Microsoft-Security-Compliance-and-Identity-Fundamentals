@@ -80,7 +80,7 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 1. Di Kotak layanan filter dari halaman Semua layanan, masukkan **Azure Sentinel**, lalu klik **Azure Sentinel** di daftar hasil. 
 
-2. Dari halaman Azure Sentinel, pilih ruang kerja yang Anda buat dengan contoh Azure Sentinel, ** SC900-LogAnalytics-workspace**.
+2. Dari halaman Azure Sentinel, pilih ruang kerja yang Anda buat dengan contoh Azure Sentinel, **SC900-LogAnalytics-workspace**.
 
 3. Langkah pertama dengan Azure Sentinel adalah dapat mengumpulkan data. Dari panel navigasi kiri, pilih **Data connectors**, yang terdaftar di bawah konfigurasi.
 
@@ -149,7 +149,7 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 3. Di halaman Grup sumber daya, klik grup sumber daya yang Anda buat dengan Azure Sentinel, **SC900-ResourceGroup**.
 
-4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya, ** SC900-ResourceGroup**, lalu klik **Delete** di bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
+4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya, **SC900-ResourceGroup**, lalu klik **Delete** di bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
 
 5. Setelah Anda memverifikasi grup sumber daya telah dihapus, tutup halaman browser. 
 

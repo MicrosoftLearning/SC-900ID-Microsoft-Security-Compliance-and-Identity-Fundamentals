@@ -88,7 +88,7 @@ Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Mana
 1. Masuk sebagai Diego Siciliani.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (di mana ZZZZZZ adalah ID penyewa unik Anda yang diberikan oleh penyedia host lab), lalu pilih **Next**.
     1. Masukkan kata sandi sementara yang Anda catat dari tugas sebelumnya dan pilih **Sign in**.  Pilih **Sign in**.
-    1. Karena kata sandi yang Anda masukkan hanyalah kata sandi sementara, Anda perlu memperbaruinya sekarang. Masukkan kata sandi saat ini.  Untuk kata sandi baru dan kolom konfirmasi kata sandi, masukkan ** SC900-Lab**.
+    1. Karena kata sandi yang Anda masukkan hanyalah kata sandi sementara, Anda perlu memperbaruinya sekarang. Masukkan kata sandi saat ini.  Untuk kata sandi baru dan kolom konfirmasi kata sandi, masukkan **SC900-Lab**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
 1. Anda seyogianya berhasil masuk ke Azure Portal.
@@ -99,7 +99,7 @@ Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Mana
 1. Di kolom terakhir tabel, tindakan berlabel, pilih **Activate**.
 1. Anda akan melihat ikon peringatan yang menunjukkan verifikasi tambahan diperlukan.  Pilih **Click to continue**.  Ingatlah bahwa pengaturan PIM untuk peran Administrator pengguna memerlukan autentikasi multifaktor.  Selain itu, karena informasi kontak Diego yang digunakan dengan MFA (metode autentikasi) sebelumnya tidak dikonfigurasi, maka harus mendaftarkan informasinya untuk dapat menggunakan MFA.  Meskipun dia harus melakukan MFA kapan saja dia masuk sebagai admin pengguna, dalam periode penugasan, proses pendaftaran MFA hanya diperlukan sekali.
 1. Anda akan diberi tahu bahwa informasi lebih lanjut diperlukan, pilih **Next**.
-1. Masukkan kata sandi Anda, ** SC900-Lab**.
+1. Masukkan kata sandi Anda, **SC900-Lab**.
 1. Dari kiri bawah jendela Microsoft Authenticator, pilih **I want to setup a different method**.
 1. Anda diminta untuk Memilih metode yang berbeda.  Di sebelah aplikasi Authenticator, pilih tombol panah bawah.   Pilih **Phone**, lalu pilih **Confirm**.
 1. Anda diminta untuk memasukkan nomor ponsel yang ingin Anda gunakan. Pastikan negaranya benar, untuk kode negara nomor ponsel Anda.  Masukkan nomor ponsel Anda, pastikan **Text me a code** dipilih, lalu pilih **Next**.

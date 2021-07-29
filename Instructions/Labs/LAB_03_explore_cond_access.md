@@ -64,7 +64,7 @@ Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan
 
 12. Pada bilah pencarian, masukkan **Azure**.  Dari hasil pencarian yang muncul di bawah kotak pencarian, pilih **Microsoft Azure Management**, lalu klik **Select** di bagian bawah halaman.  Perhatikan peringatan.  
 
-13. Pada Kondisi, pilih **0 conditions selected**.****  Perhatikan berbagai opsi yang dapat Anda konfigurasikan.  Dengan kebijakan, Anda dapat mengontrol akses pengguna berdasarkan sinyal dari kondisi seperti risiko, platform perangkat, lokasi, aplikasi klien, atau keadaan perangkat.  Misalnya, Anda dapat mencantumkan kondisi untuk kebijakan agar diterapkan di lokasi mana saja kecuali yang dipilih atau lokasi yang tepercaya seperti jaringan pusat Anda.  Untuk kebijakan ini, jangan atur kondisi.
+13. Pada Kondisi, pilih **0 conditions selected**.  Perhatikan berbagai opsi yang dapat Anda konfigurasikan.  Dengan kebijakan, Anda dapat mengontrol akses pengguna berdasarkan sinyal dari kondisi seperti risiko, platform perangkat, lokasi, aplikasi klien, atau keadaan perangkat.  Misalnya, Anda dapat mencantumkan kondisi untuk kebijakan agar diterapkan di lokasi mana saja kecuali yang dipilih atau lokasi yang tepercaya seperti jaringan pusat Anda.  Untuk kebijakan ini, jangan atur kondisi.
 
 14. Sekarang Anda akan mengatur kontrol akses.  Pada Grant, pilih **0 controls selected**.
 
@@ -83,7 +83,7 @@ Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan
 1. Masuk sebagai Debra Burger,
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (di mana ZZZZZZ adalah ID penyewa unik Anda yang diberikan oleh penyedia host lab), lalu pilih **Next**.
     1. Masukkan kata sandi yang Anda catat sebelumnya. Pilih **Sign in**.
-    1. Karena kata sandi yang tersedia ketika Anda menjadi admin mengatur ulang kata sandi secara sementara, Anda perlu memperbarui kata sandi Anda (ini bukan bagian dari MFA).  Masukkan kata sandi saat ini, lalu untuk kata sandi baru dan bidang konfirmasi kata sandi masukkan ** SC900-Lab**.
+    1. Karena kata sandi yang tersedia ketika Anda menjadi admin mengatur ulang kata sandi secara sementara, Anda perlu memperbarui kata sandi Anda (ini bukan bagian dari MFA).  Masukkan kata sandi saat ini, lalu untuk kata sandi baru dan bidang konfirmasi kata sandi masukkan **SC900-Lab**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**
 
 1. Anda telah berhasil masuk ke akun Microsoft 365 Anda.  MFA tidak diperlukan untuk aplikasi ini karena tidak menjadi bagian kebijakan.
@@ -96,7 +96,7 @@ Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan
 
 1. Di jendela yang terbuka, pastikan negara Anda sudah dipilih lalu masukkan nomor ponsel yang ingin Anda gunakan lalu pilih, pastikan **Text me a code** sudah dipilih, lalu tekan **Next**.  Layar akan menampilkan, "SMS terverifikasi. Ponsel Anda berhasil terdaftar".  Klik **Next**. Lalu pilih **Done**.  yang menyelesaikan proses pendaftaran satu kali.
 
-1. Anda mungkin akan mendapatkan pesan yang menunjukkan bahwa waktu proses masuk Anda habis.  Cukup masukkan kata sandi ** SC900-Lab**, lalu tekan **Sign in**.
+1. Anda mungkin akan mendapatkan pesan yang menunjukkan bahwa waktu proses masuk Anda habis.  Cukup masukkan kata sandi **SC900-Lab**, lalu tekan **Sign in**.
 
 1. Anda akan melihat jendela yang meminta Anda untuk memasukkan kode yang dikirimkan ke ponsel Anda.  Masukan kode dan klik **Next**.  Pengalaman inilah yang akan Anda rasakan sebagai Gerhart kapan saja ketika Anda mengakses aplikasi cloud Manajemen Microsoft Azure, seperti Azure Portal yang sesuai dengan kebijakan MFA.
 

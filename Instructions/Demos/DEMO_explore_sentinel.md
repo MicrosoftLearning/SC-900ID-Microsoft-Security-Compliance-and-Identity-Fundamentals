@@ -1,6 +1,6 @@
 ﻿---
 Demo:
-    title: Azure Sentinel'
+    title: 'Azure Sentinel'
     module: 'Modul 3 Pelajaran 3: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan kemampuan keamanan Azure Sentinel'
 ---
 
@@ -43,7 +43,7 @@ Dalam demo ini, Anda akan menelusuri proses pembuatan instans Azure Sentinel.  A
 
 1. Di kotak pencarian, di bilah biru di bagian atas halaman sebelah tulisan Microsoft Azure, masukkan **resource groups**, lalu pilih **Resource groups** dari hasil pencarian.
 
-1. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Azure Sentinel, ** SC900-Sentinel-RG**.
+1. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Azure Sentinel, **SC900-Sentinel-RG**.
 
 1. Dari SC900-Sentinel-RG, pilih **Access control (IAM)** dari panel navigasi sebelah kiri.
 
@@ -63,7 +63,7 @@ Dalam demo ini, Anda akan menelusuri proses pembuatan instans Azure Sentinel.  A
 
 1. Di kotak pencarian, di bilah biru bagian atas halaman di sebelah tulisan Microsoft Azure, masukkan **sentinel**, lalu pilih **Azure Sentinel** dari hasil pencarian.
 
-1. Dari halaman Azure Sentinel, pilih ruang kerja yang Anda buat dengan contoh Azure Sentinel, ** SC900-LogAnalytics-workspace**.
+1. Dari halaman Azure Sentinel, pilih ruang kerja yang Anda buat dengan contoh Azure Sentinel, **SC900-LogAnalytics-workspace**.
 
 1. Langkah pertama dengan Azure Sentinel adalah dapat mengumpulkan data. Dari panel navigasi kiri, pilih **Data connectors**, yang terdaftar di bawah konfigurasi.
 
@@ -87,7 +87,7 @@ Dalam demo ini, Anda akan menelusuri proses pembuatan instans Azure Sentinel.  A
 
 1. Bagian atas halaman Konektor data akan menampilkan 1 terhubung, untuk menunjukkan bahwa Anda sekarang terhubung ke Azure Active Directory.
 
-1. Dari panel navigasi sebelah kiri, pilih **Workbooks******.
+1. Dari panel navigasi sebelah kiri, pilih **Workbooks**.
 
 1. Dari halaman Buku Kerja, pilih tab **My workbooks**, yang berada di atas kotak pencarian.  Buku kerja yang baru saja Anda simpan terdaftar dan tersedia bagi Anda untuk melihat dan memantau data Anda.  Masuk berikutnya akan tercatat dalam buku kerja, jadi Anda dapat memilih untuk menampilkannya.
 
@@ -125,7 +125,7 @@ Dalam demo ini, Anda akan menelusuri proses pembuatan instans Azure Sentinel.  A
 
 1. Di kotak layanan filter, masukkan grup sumber daya, lalu dari daftar yang disediakan pilih **Resource groups**.
 
-1. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Azure Sentinel, ** SC900-Sentinel-RG**.
+1. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Azure Sentinel, **SC900-Sentinel-RG**.
 
 1. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya, **SC900-Sentinel-RG**, lalu pilih **Delete** dari bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
 

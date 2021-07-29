@@ -92,7 +92,7 @@ Di lab ini, Anda akan mempelajari proses penyiapan kebijakan risiko dari dalam, 
 
     1. Kerangka kebijakan:  Dari daftar kategori, pilih **Data leaks**, lalu pilih **General data leaks**.  Perhatikan bahwa templat dalam kategori mungkin memiliki prasyarat tambahan.  Baca detail yang terkait dengan templat ini, lalu pilih **Next**.
     
-    1. Nama dan deskripsi:  masukkan nama, ** SC900-InsiderRiskPolicy**, lalu pilih **Next**.
+    1. Nama dan deskripsi:  masukkan nama, **SC900-InsiderRiskPolicy**, lalu pilih **Next**.
     1. Pengguna dan grup:  Tinjau kotak informasi.  Biarkan pengaturan default, **Include all users and groups**.  Klik **Next**.
     1. Konten yang harus diprioritaskan: Baca deskripsinya. Pilih **I want to specify SharePoint sites, sensitivity labels, and/or sensitive info types as priority content**, lalu pilih **Next**.
         1. Situs SharePoint: Untuk contoh kebijakan ini, biarkan kosong, pilih **Next**

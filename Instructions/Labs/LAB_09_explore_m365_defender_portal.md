@@ -5,7 +5,7 @@ lab:
 ---
 
 
-# Lab: 'Mempelajari portal Pertahanan Microsoft 365'
+# Lab: Mempelajari portal Pertahanan Microsoft 365
 
 ## Skenario lab
 Di lab ini, Anda akan mempelajari portal Pertahanan Microsoft 365 dengan menelusuri konten yang ditampilkan di halaman arahan. Anda juga akan mempelajari opsi pada panel navigasi yang menyediakan akses cepat ke fungsi yang merupakan bagian dari solusi Deteksi dan Respons Microsoft yang diperluas (XDR): Pertahanan Microsoft untuk Titik Akhir, dan Pertahanan Microsoft untuk Office 365 (email dan kolaborasi).  Terakhir, Anda juga akan mempelajari bagaimana Microsoft Secure Score dapat membantu organisasi memperbaiki kondisi keamanannya.

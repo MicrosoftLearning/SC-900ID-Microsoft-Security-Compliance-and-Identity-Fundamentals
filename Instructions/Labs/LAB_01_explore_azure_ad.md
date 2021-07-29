@@ -48,7 +48,7 @@ Pada lab ini, Anda akan mengakses Azure Active Directory.  Selain itu, Anda akan
 
 3. Dari bagian atas halaman, pilih **+ New user**.
 
-4. ******Create User** semestinya sudah dipilih. Jika belum, pilihlah opsi itu.
+4. **Create User** semestinya sudah dipilih. Jika belum, pilihlah opsi itu.
 
 5. Isi bidang **Identity** sebagai berikut:
 
@@ -116,7 +116,7 @@ Pada lab ini, Anda akan mengakses Azure Active Directory.  Selain itu, Anda akan
 
 5. Sekarang Anda diminta untuk Memperbarui kata sandi Anda. Di bidang Kata sandi saat ini, masukkan **Naja8996**.
 
-6. Di bidang Kata sandi baru, masukkan ** SC900-Lab**.  Di bidang Konfirmasi kata sandi Anda, masukkan SC900-Lab, lalu pilih Masuk. Catatan: Untuk praktik terbaiknya, gunakanlah kata sandi yang lebih aman. Kata sandi ini dipilih untuk kelayakan dan hanya untuk tujuan lab ini.
+6. Di bidang Kata sandi baru, masukkan **SC900-Lab**.  Di bidang Konfirmasi kata sandi Anda, masukkan SC900-Lab, lalu pilih Masuk. Catatan: Untuk praktik terbaiknya, gunakanlah kata sandi yang lebih aman. Kata sandi ini dipilih untuk kelayakan dan hanya untuk tujuan lab ini.
 
 7. Anda telah berhasil masuk ke Microsoft 365.
 

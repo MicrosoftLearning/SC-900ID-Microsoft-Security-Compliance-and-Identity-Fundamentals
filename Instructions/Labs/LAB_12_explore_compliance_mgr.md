@@ -5,7 +5,7 @@ lab:
 ---
 
 
-# Lab: Mempelajari pusat kepatuhan & Pengelola Kepatuhan Microsoft 365
+# Lab: Mempelajari pusat kepatuhan Microsoft 365 & Pengelola Kepatuhan
 
 ## Skenario lab
 Di lab ini, Anda akan menjelajahi halaman beranda pusat kepatuhan Microsoft 365 dan cara kemampuan Pengelola kepatuhan dapat membantu organisasi meningkatkan kondisi kepatuhan mereka.

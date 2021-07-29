@@ -22,7 +22,7 @@ Dalam demo ini, Anda akan menunjukkan fungsi grup keamanan jaringan (NSG) di Azu
 1. Dari tab dasar, isi informasi berikut (untuk apa pun yang tidak terdaftar, biarkan pengaturan default):
     1. **Subscription**: verifikasi pengaturan default menjadi Azure Pass – Sponsorship.
     1. **Resource group**: pilih **Create new**, lalu di kolom Nama masukkan **LabsSC900-RG**, lalu pilih **OK**.
-    1. **Virtual machines name**:  masukkan ** SC900-WinVM**.
+    1. **Virtual machines name**:  masukkan **SC900-WinVM**.
     1. **Region**:  biarkan default.
     1. **Availability options**: pastikan untuk memilih **No infrastructure redundancy required**.  CATATAN: opsi ketersediaan harus diatur ke No infrastructure redundancy required, jika tidak, demo tidak akan berfungsi sesuai harapan.  Memiliki opsi ketersediaan memerlukan NSG dan kami sengaja membuat VM tanpa NSG.
     1. **Image**:  dari menu tarik-turun, pilih **Windows 10 Pro, Version 20H2 – Gen 1**.
@@ -92,7 +92,7 @@ Telusuri pengaturan NSG.  Dalam hal ini, Anda akan melakukan penelusuran ke NSG 
 
 1. Kembali ke tab **Overview**.  Perhatikan bahwa di kanan atas halaman Anda akan melihat “Associated with: 0 subnets, 1 network interfaces”– antarmuka sekarang ditetapkan ke NSG. Juga, tekankan aturan default kepada pelajar. Untuk masuk, hanya lalu lintas dari jaringan virtual Azure lain dan penyeimbang beban Azure yang akan diizinkan. Semua lalu lintas masuk lainnya ke VM akan ditolak. Sebutkan juga aturan keluar default.  Hanya lalu lintas keluar ke vnet lain dan lalu lintas internet keluar yang diperbolehkan.  Sebagai bagian dari demo, sebaiknya Anda meluangkan waktu sebentar untuk menunjukkan bahwa lalu lintas masuk ditolak.
     1. Di bilah pencarian, di bagian atas halaman, masuk dan pilih **Virtual Machines**.
-    1. Dari halaman Komputer Virtual, pilih ** SC900-WinVM**.
+    1. Dari halaman Komputer Virtual, pilih **SC900-WinVM**.
     1. Dari bagian atas halaman SC900-WinVM, pilih **Connect**, lalu pilih **RDP**.
     1. Verifikasi alamat IP diatur ke alamat IP Publik, biarkan nomor port default dan pilih **Download DRP file**.
     1. **Open** file yang diunduh dan pilih **Connect**.

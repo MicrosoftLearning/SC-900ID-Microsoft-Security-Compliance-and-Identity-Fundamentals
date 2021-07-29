@@ -1,6 +1,6 @@
 ﻿---
 lab:
-    title: 'Menjelajahi Autentikasi Microsoft Azure AD dengan layanan pengaturan ulang kata sandi mandiri'
+    title: 'Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri'
     module: 'Modul 2 Pelajaran 2: Menjelaskan kemampuan Microsoft Identity dan solusi manajemen akses: Menjelaskan metode autentikasi lain dari Microsoft Azure AD'
 ---
 
@@ -92,7 +92,7 @@ Di lab ini, Anda sebagai admin akan menjalani proses pengaktifan pengaturan ulan
     1. Masukkan kata sandi yang Anda catat sebelumnya. Pilih **Sign in**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
-4. Karena ini adalah pertama kalinya Anda masuk sebagai Adele Vance, Anda akan diminta untuk mengatur ulang kata sandi.  Masukkan kata sandi lama Anda.  Untuk kata sandi baru Anda, masukkan ** SC900-Lab**. Masukkan ** SC-900-Lab** di bidang konfirmasi kata sandi.  Pilih **Sign in**.  Catatan: kami menggunakan kata sandi ini hanya untuk kemudahan lab. Sebaiknya, Anda memasukkan kata sandi yang lebih aman.
+4. Karena ini adalah pertama kalinya Anda masuk sebagai Adele Vance, Anda akan diminta untuk mengatur ulang kata sandi.  Masukkan kata sandi lama Anda.  Untuk kata sandi baru Anda, masukkan **SC900-Lab**. Masukkan **SC-900-Lab** di bidang konfirmasi kata sandi.  Pilih **Sign in**.  Catatan: kami menggunakan kata sandi ini hanya untuk kemudahan lab. Sebaiknya, Anda memasukkan kata sandi yang lebih aman.
 
 5. Tampilan pop-up yang menunjukkan bahwa informasi lebih lanjut diperlukan.  Hal ini karena sebagai anggota grup SSPRSecurityUsers, konfigurasi mengharuskan anggotanya untuk mendaftar ketika mereka masuk. Pilih tombol **Next**.  Catatan:  Alternatif untuk meminta pengguna melakukan pendaftaran sendiri, agar admin segera mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan admin untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
 
