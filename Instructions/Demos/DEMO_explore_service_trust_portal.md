@@ -14,7 +14,7 @@ Dalam demo ini, Anda akan menampilkan fitur dan konten yang tersedia dari Servic
 
 1. Buka Microsoft Edge.
 
-1. Di bilah alamat, masukkan **https://aks.ms/STP**.  Ini akan membawa Anda ke halaman arahan untuk Service Trust Portal. Service Trust Portal berisi detail penerapan kontrol dan proses Microsoft yang melindungi layanan cloud kami dan data pelanggan di dalamnya. 
+1. Di bilah alamat, masukkan **https://aka.ms/STP**.  Hal ini akan mengarahkan Anda ke halaman arahan untuk Service Trust Portal. Service Trust Portal berisi detail tentang penerapan kontrol dan proses Microsoft yang melindungi layanan cloud kami serta data pelanggan di dalamnya. 
 
 1. Untuk mengakses beberapa sumber daya di Service Trust Portal, Anda harus masuk sebagai pengguna yang diautentikasi dengan akun layanan cloud Microsoft Anda dan meninjau serta menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan. Di sudut kanan atas halaman arahan untuk Service Trust Portal, Anda akan melihat opsi untuk Masuk.  **Sign in**, menggunakan kredensial admin Anda dan, jika diminta, pilih **Agree** untuk menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan.
 
