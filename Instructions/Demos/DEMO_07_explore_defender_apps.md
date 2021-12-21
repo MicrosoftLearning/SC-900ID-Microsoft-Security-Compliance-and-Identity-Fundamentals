@@ -1,34 +1,34 @@
 ---
 Demo:
-    title: 'Microsoft Cloud App Security'
+    title: 'Mempelajari Pertahanan Microsoft untuk Aplikasi Cloud'
     module: 'Modul 3 Pelajaran 4: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan perlindungan terhadap ancaman dengan Pertahanan Microsoft 365'
 ---
 
 
-# Demo: Microsoft Cloud App Security
+# Demo: Mempelajari Pertahanan Microsoft untuk Aplikasi Cloud
 
 ### Skenario demo
-Dalam demo ini, Anda akan menunjukkan kemampuan Microsoft Cloud App Security.  Anda akan memandu pelajar mempelajari informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan dan mengontrol dampak terhadap organisasi Anda melalui kebijakan.  Catatan:  Organisasi harus memiliki lisensi untuk menggunakan Microsoft Cloud App Security yang merupakan layanan berlangganan berbasis pengguna.  
+Pada demo ini, Anda akan melihat kemampuan Pertahanan Microsoft untuk Aplikasi Cloud.  Anda akan memandu pelajar mempelajari informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan dan mengontrol dampak terhadap organisasi Anda melalui kebijakan.  Catatan:  Organisasi harus memiliki lisensi untuk menggunakan Pertahanan Microsoft untuk Aplikasi Cloud yang merupakan layanan berlangganan berbasis pengguna.  
 
-#### Demo Bagian 1: Menjelajahi Cloud Discovery.
+#### Demo Bagian 1: Mempelajari Cloud Discovery.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.  Anda seharusnya sudah masuk sebagai admin.  Jika tidak, masuk dengan kredensial admin Anda.
 
 1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.  Sampaikan bahwa pusat admin Microsoft 365 yang berbeda dapat diakses dari sini.
 
-1. Di bawah Pusat admin, pilih **Security**.  Halaman browser baru terbuka ke halaman selamat datang di portal Pertahanan Microsoft 365.  
+1. Di Pusat admin, pilih **Security**.  Halaman browser baru terbuka ke halaman selamat datang di portal Pertahanan Microsoft 365.  
 
 1. Jika ini adalah pertama kalinya Anda mengunjungi portal Pertahanan Microsoft 365, Anda mungkin akan melihat jendela pop-up untuk mengikuti tur singkat.  Tutup jendela ini.
 
 1. Dari bagian bawah panel navigasi kiri halaman Pertahanan Microsoft 365, pilih **More resources**.
 
-1. Pada kartu **Microsoft Cloud App Security**, pilih **Open**.  Halaman browser baru terbuka ke Dasbor Cloud App Security.  Perhatikan kartu informasi yang tersedia.  Anda mungkin tidak melihat informasi apa pun pada kartu, karena lingkungan penyewa lab ini telah dikonfigurasi sebelumnya serta belum digunakan secara aktif.  
+1. Di kartu **Pertahanan Microsoft untuk Aplikasi Cloud**, pilih **Open**.  Halaman browser baru terbuka ke Dasbor Cloud App Security.  Perhatikan kartu informasi yang tersedia.  Anda mungkin tidak melihat informasi apa pun pada kartu, karena lingkungan penyewa lab ini telah dikonfigurasi sebelumnya serta belum digunakan secara aktif.  
 
 1. Dari panel navigasi sebelah kiri, pilih **Discover**, lalu dari menu tarik-turun, pilih **Cloud Discovery dashboard**.  Dasbor mencakup dan menampilkan ringkasan aplikasi yang ditemukan, kategori aplikasi, tingkat risiko, dan banyak lagi.  
 
     1. Dari bagian atas halaman Cloud Discovery, pilih tab **Discovered apps**.  Jendela aplikasi yang ditemukan memberikan tampilan yang lebih mendetail tentang aplikasi yang ditemukan, termasuk skor risiko, lalu lintas, jumlah pengguna, dan lainnya.
 
-        1. Dari semua item dalam daftar, pilih **ellipses** di kolom tindakan tabel.  Perhatikan berbagai opsi yang tersedia, termasuk kemampuan untuk menandai aplikasi sebagai disetujui atau tidak.  Pilih elips sekali lagi, untuk menutup kotak tindakan.
+        1. Dari semua item dalam daftar, pilih **ellipses** di kolom tindakan tabel.  Perhatikan berbagai opsi yang tersedia, termasuk kemampuan untuk menandai aplikasi sebagai disetujui atau tidak.  Pilih elipsis sekali lagi, untuk menutup kotak tindakan.
 
         1. Memilih item baris tertentu akan membuka halaman detail untuk aplikasi tertentu.  Pilih item dari daftar.  Untuk item yang dipilih, buka setiap tab di bagian atas halaman detail:  **Usage**, **Info, IP**, **Addresses**, **Users**, dan **Alerts**. Setelah selesai menjelajahi halaman detail, kembali ke aplikasi yang ditemukan, dengan memilih **Discovered apps** dari panel navigasi sebelah kiri.
 
@@ -38,15 +38,15 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Microsoft Cloud App Security.  A
 
 1. Informasi yang diberikan di tab ini didasarkan pada laporan cuplikan dari log lalu lintas yang Anda unggah secara manual dari firewall dan proksi atau dari laporan berkelanjutan yang menganalisis semua log yang diteruskan dari jaringan Anda menggunakan Cloud App Security.  Untuk melihat tempat informasi ini diatur, pilih **ellipses** di pojok kanan atas halaman.
 
-    1. Pilih opsi pertama, **Create Cloud Discovery snapshot report**. Di sini, Anda akan mengisi detail yang diminta dan mengunggah log lalu lintas untuk menghasilkan dan mengunggah laporan.  Pilih **Cancel**.  Data yang Anda lihat untuk penyewa lab Anda berasal dari Laporan cuplikan, Anda dapat melihat informasi ini di sudut kanan atas layar.
+    1. Pilih opsi pertama, **Create Cloud Discovery snapshot report**. Di sini, Anda akan mengisi detail yang diminta dan mengunggah log lalu lintas untuk menghasilkan dan mengunggah laporan.  Pilih **Cancel**.  Data yang Anda lihat untuk penyewa lab berasal dari Laporan cuplikan, Anda dapat melihat informasi ini di sudut kanan atas layar.
 
-    1. Untuk melihat opsi laporan berkelanjutan, pilih **ellipses** di sudut kanan atas halaman dan dari menu tarik-turun, pilih **Configure automatic upload**.  Tidak ada sumber data yang terhubung, tetapi di sinilah Anda akan menambahkan sumber data. Pilih panah menu tarik-turun, **Select Appliance** untuk melihat jenis peralatan yang dapat Anda hubungkan sebagai sumber data.  Pilih **Cancel** untuk keluar.
+    1. Untuk melihat opsi laporan berkelanjutan, pilih **ellipses** di sudut kanan atas halaman dan dari menu tarik-turun pilih **Configure automatic upload**.  Tidak ada sumber data yang terhubung, tetapi di sinilah Anda akan menambahkan sumber data. Pilih panah menu tarik-turun, **Select Appliance** untuk melihat jenis peralatan yang dapat Anda hubungkan sebagai sumber data.  Pilih **Cancel** untuk keluar.
 
 1. Poin lain yang perlu diperhatikan adalah Anda dapat terhubung ke aplikasi secara langsung dengan menyiapkan konektor aplikasi yang akan memberi Anda visibilitas dan kontrol yang lebih besar atas aplikasi cloud Anda. Dari sudut kiri atas layar, pilih **Settings cog icon** dan dari daftar tarik-turun, pilih **App connectors**.  
 
-    1. Di halaman Aplikasi yang terhubung, Anda akan melihat Office 365 pada daftar dengan status terhubung.  Jika Office 365 menunjukkan kesalahan koneksi, kemungkinan besar karena Audit tidak diaktifkan.
+    1. Pada halaman Aplikasi yang terhubung, Anda akan melihat Office 365 pada daftar dengan status terhubung.  Jika Office 365 menunjukkan kesalahan koneksi, kemungkinan besar karena Audit tidak diaktifkan.
 
-    1. Pilih **+Connect an app** dan dari daftar tarik-turun pilih **Microsoft Azure**.  Dari jendela pop-up Microsoft Azure, pilih **Connect Microsoft Azure**.  Anda akan melihat status terhubung dan informasi terkait pemindaian, data, dan aktivitas pengguna.  Pilih tombol **Close**.
+    1. Pilih **+Connect an app** dan dari daftar tarik-turun pilih **Microsoft Azure**.  Dari jendela pop-up Microsoft Azure, pilih **Connect Microsoft Azure**.  Anda akan melihat status terhubung dan informasi terkait pemindaian, data, dan aktivitas pengguna.  Pilih **tombol Close**.
 
 1. Biarkan halaman ini tetap terbuka, karena Anda akan menggunakannya dalam tugas berikutnya.
 
@@ -56,14 +56,14 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Microsoft Cloud App Security.  A
 
 1. Pilih item untuk menampilkan informasi yang lebih detail. Perhatikan di bagian atas halaman, opsi untuk menambahkan kebijakan baru dari pencarian atau mengekspor data untuk analisis lebih lanjut.  Pilih **+New policy from search**.  Perhatikan bagaimana Anda dapat membuat kebijakan berdasarkan templat, memilih tingkat keparahan & kategori kebijakan, membuat filter untuk kebijakan, membuat peringatan, dan bahkan mengirim peringatan ke Power Automate.  Pilih **Cancel** untuk keluar dari jendela pembuatan kebijakan.
 
-1. Dari panel navigasi kiri, pilih dan jelajahi opsi **Files** dan perhatikan opsi untuk memfilter data, membuat kebijakan file, dan mengekspor data.  Pilih dan jelajahi opsi **user and accounts**.  Perhatikan opsi memfilter data dan mengekspor data.
+1. Dari panel navigasi kiri, pilih dan jelajahi opsi **Files**, serta perhatikan opsi untuk memfilter data, membuat kebijakan file, dan mengekspor data.  Pilih dan jelajahi opsi **user and accounts**.  Perhatikan opsi memfilter data dan mengekspor data.
 
-1. Dari panel navigasi kiri, pilih Konfigurasi keamanan. Halaman ini menyajikan penilaian konfigurasi keamanan untuk akun Azure, Amazon Web Services (AWS), dan Google Cloud Platform (GCP) Anda.
+1. Dari panel navigasi kiri, pilih Konfigurasi keamanan. Halaman ini memberi Anda penilaian konfigurasi keamanan untuk akun Azure, Amazon Web Services (AWS), dan Google Cloud Platform (GCP) Anda.
 
 1. Biarkan halaman ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
 
 
-#### Demo Bagian 3: Dalam tugas ini, Anda akan menjelajahi halaman kebijakan dan peringatan di keamanan aplikasi Microsoft Cloud.
+#### Demo Bagian 3: Dalam tugas ini, Anda akan menjelajahi halaman kebijakan dan peringatan di Pertahanan Microsoft untuk Aplikasi Cloud.
 
 1. Dari panel navigasi sebelah kiri, di bawah teks Kontrol, pilih **Policies**.  Kebijakan yang tercantum memberikan informasi tentang jumlah peringatan yang dihasilkan oleh kebijakan, tingkat keparahan, dll. Memilih item baris mana pun memberikan informasi selengkapnya tentang kebijakan tersebut. Pilih item dari daftar, mis., **Risky sign-in**.  
 
@@ -72,4 +72,4 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Microsoft Cloud App Security.  A
 1. Tutup jendela browser.
 
 #### Tinjauan
-Dalam demo ini, Anda telah menunjukkan kemampuan Microsoft Cloud App Security.  Andatelah  menunjukkan informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan, dan mengontrol dampaknya terhadap organisasi Anda melalui kebijakan.
+Pada demo ini, Anda telah melihat kemampuan Pertahanan Microsoft untuk Aplikasi Cloud.  Anda telah menunjukkan informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan, dan mengontrol dampaknya terhadap organisasi Anda melalui kebijakan.

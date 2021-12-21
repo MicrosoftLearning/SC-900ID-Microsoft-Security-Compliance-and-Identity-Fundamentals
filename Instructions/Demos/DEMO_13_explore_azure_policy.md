@@ -18,15 +18,15 @@ Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan damp
 
 1. Sekarang Anda berada di ikhtisar halaman Kebijakan. Perhatikan informasi yang tersedia di dasbor.
 
-1. Bentuk panel navigasi kiri, di bawah Authoring, pilih **Assignments**.  Anda akan melihat bahwa sudah ada penetapan kebijakan, pilih **ASC Default**.  Perhatikan bidang deskripsi. Ini adalah kumpulan kebijakan default yang dipantau oleh Pusat Keamanan Azure. Ditetapkan secara otomatis sebagai bagian dari orientasi ke Pusat Keamanan. Penetapan default hanya berisi kebijakan audit. Untuk informasi lebih lanjut, silakan kunjungi https://aka.ms/ascpolicies-ind.  Kembali ke halaman Penetapan Kebijakan dengan memilih **X** di pojok kanan atas halaman.
+1. Bentuk panel navigasi kiri, di bawah Penulisan, pilih **Assignments**.  Anda akan melihat bahwa sudah ada penetapan kebijakan, pilih **ASC Default**.  Tinjau bidang deskripsi. CATATAN: Bidang deskripsi mereferensikan Azure Security Center yang telah diubah namanya menjadi Pertahanan Microsoft untuk Cloud.  Kembali ke halaman Penetapan Kebijakan dengan memilih **X** di pojok kanan atas halaman.
 
 1. Dari bagian atas halaman, pilih **Assign policy**.
 
-1. Wizard Tetapkan kebijakan terbuka untuk memandu admin dalam proses menetapkan kebijakan.  Di samping bidang Definisi kebijakan, pilih **ellipses**.  Daftar definisi kebijakan yang tersedia diberikan.  
+1. Wizard Tetapkan kebijakan terbuka untuk memandu admin dalam proses menetapkan kebijakan.  Di samping bidang Definisi kebijakan, pilih **ellipses**.  Muncul daftar definisi kebijakan yang tersedia.  
 
 1. Di bilah pencarian, masukkan, **Tag**.
 
-1. Dari hasil pencarian, pilih **Require a tag on resource group** (Anda mungkin perlu menggulir ke bawah), kemudian tekan **Select**.  Catatan: dampak kebijakan ini adalah Menolak pembuatan grup sumber daya baru yang tidak memenuhi syarat.  
+1. Dari hasil pencarian, pilih **Require a tag on resource group** (Anda mungkin perlu menggulir ke bawah), kemudian tekan **Select**.  Catatan: efek dari kebijakan ini adalah Menolak pembuatan grup sumber daya baru yang tidak memenuhi persyaratan.  
 
 1. Perhatikan nama tugas default.  Biarkan nama apa adanya dan dari bagian bawah halaman, pilih **Next**.
 
@@ -34,9 +34,9 @@ Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan damp
 
 1. Dari tab Remediasi, baca deskripsi tetapi jangan ubah pengaturannya. Pilih **Next**
 
-1. Dalam pesan ketidakpatuhan, masukkan **An environment tag is required**, kemudian pilih **Next**. Catatan: pesan ini akan muncul karena ketidakpatuhan grup sumber daya yang dibuat sebelum penetapan kebijakan dan tidak memiliki tag Lingkungan.  Untuk grup sumber daya yang dibuat setelah kebijakan dibuat, pembuatan grup sumber daya akan ditolak jika tidak ada tag lingkungan.
+1. Dalam pesan ketidakpatuhan, masukkan **An environment tag is required**, kemudian pilih **Next**. Catatan: pesan ini akan muncul sebagai alasan ketidakpatuhan untuk grup sumber daya yang dibuat sebelum penetapan kebijakan dan tidak memiliki tag Lingkungan.  Untuk grup sumber daya yang dibuat setelah kebijakan dibuat, pembuatan grup sumber daya akan ditolak jika tidak ada tag lingkungan.
 
-1. Tinjau penetapan kebijakan, lalu pilih Buat.  Jika Anda tidak segera melihat kebijakan, pilih **Refresh**. Catatan: Mungkin perlu waktu hingga 30 menit agar kebijakan diterapkan.
+1. Tinjau penetapan kebijakan, lalu pilih Create.  Jika Anda tidak segera melihat kebijakan, pilih **Refresh**. Catatan: Mungkin perlu waktu hingga 30 menit agar kebijakan diterapkan.
 
 1. Keluar dari halaman Penetapan kebijakan dengan memilih **X** di sudut kanan atas layar.
 
@@ -50,11 +50,11 @@ Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan damp
 
 1. Dari tab Dasar grup untuk Membuat sumber daya, biarkan bidang Langganan apa adanya, Azure Pass - Sponsorship.
 
-1. Di bidang grup Sumber daya, masukkan, **SC900-Labs**.
+1. Di bidang grup Sumber daya, masukkan, ** SC900-Labs**.
 
-1. Biarkan pengaturan Wilayah tetap default, lalu pilih **Next: Tag**.
+1. Biarkan pengaturan Wilayah tetap default, lalu pilih **Next: Tags**.
 
-1. Biarkan bidang tag Nama dan Nilai kosong.  JANGAN DIIMPOR, lalu pilih **Review + create**.
+1. Biarkan bidang tag Nama dan Nilai kosong.  JANGAN DIPOPULASIKAN, lalu pilih **Review + create**.
 
 1. Anda akan melihat bahwa telah tervalidasi (nama dan nilai tag bukan bidang wajib di wizard), lalu pilih **Create**.
 
@@ -64,11 +64,11 @@ Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan damp
 
 1. Dari jendela Buat grup sumber daya, pilih **<Previous**.
 
-1. Anda kembali ke halaman Tag untuk Membuat grup sumber daya.  Di bidang Nama masukkan Lingkungan dan di bidang Nilai, SC900-Labs, lalu pilih **Next: Review + Create >**.
+1. Anda kembali ke halaman Tag untuk Buat grup sumber daya.  Di bidang Nama masukkan Lingkungan dan di bidang Nilai, SC900-Labs, lalu pilih **Next: Review + Create >**.
 
 1. Verifikasi tag dan pilih **Create**.
 
-1. Anda akan melihat grup sumber daya yang terdaftar.  Karena tag disediakan di grup sumber daya, kondisi yang disertakan sebagai bagian dari kebijakan Azure telah terpenuhi.  Grup sumber daya sudah mematuhi kebijakan.
+1. Anda akan melihat grup sumber daya yang terdaftar.  Karena tag disediakan di grup sumber daya, kondisi yang disertakan sebagai bagian dari kebijakan Azure telah terpenuhi.  Grup sumber daya mematuhi kebijakan.
 
 #### Tinjauan
 

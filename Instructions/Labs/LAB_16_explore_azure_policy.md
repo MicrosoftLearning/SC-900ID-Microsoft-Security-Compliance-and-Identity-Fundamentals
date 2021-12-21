@@ -23,15 +23,15 @@ Azure Policy membantu menegakkan standar organisasi dan menilai kepatuhan dalam 
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Sign in**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
-1. Sekarang Anda berada di Portal Microsoft Azure.  Di bagian Portal Microsoft Azure tertulis layanan Azure, pilih **Policy**. Ini membuka halaman beranda Kebijakan yang menyediakan tampilan dasbor.  Cakupan informasi yang Anda lihat menerapkan Azure Pass yang digunakan, sebagai bagian dari lab ini.   Perhatikan informasi yang tersedia di dasbor.
+1. Sekarang Anda berada di Portal Microsoft Azure.  Di kotak pencarian, di bilah biru di bagian atas halaman di sebelah tulisan Microsoft Azure, masukkan **policy**, kemudian pilih **Policy** dari hasil pencarian. Ini membuka halaman beranda Kebijakan yang menyediakan tampilan dasbor.  Cakupan informasi yang Anda lihat menerapkan Azure Pass yang digunakan, sebagai bagian dari lab ini.   Perhatikan informasi yang tersedia di dasbor.
 
-1. Terdapat item dengan nama ASC Default (Azure Security Center) yang cakupannya adalah Azure Pass – Sponsorship.   Pilih **ASC Default**.
+1. Terdapat sebuah item bernama ASC Default (ASC mengacu pada Azure Security Center yang kini disebut Pertahanan Microsoft untuk Cloud) yang cakupannya yaitu Azure Pass – Sponsorship.   Pilih **ASC Default**.
 
-1. Di bagian atas halaman, di bagian Essentials, Anda dapat melihat nama, deskripsi, dan informasi penting lainnya.  Baca deskripsi (arahkan kursor ke deskripsi dengan mouse).  
+1. Di bagian atas halaman, di bagian Essentials, Anda dapat melihat nama, deskripsi, dan informasi penting lainnya.  Baca deskripsi (arahkan kursor ke deskripsi dengan mouse). CATATAN: Bidang deskripsi mereferensikan Azure Security Center yang telah diubah namanya menjadi Pertahanan Microsoft untuk Cloud.
 
-1. Perhatikan informasi yang disediakan oleh dasbor yang diperbarui untuk mencerminkan item yang dipilih, definisi inisiatif ASC Default.  Harap diingat bahwa definisi inisiatif adalah kumpulan definisi kebijakan yang disesuaikan untuk mencapai tujuan tunggal yang menyeluruh.  Dalam hal ini, kebijakan yang terkait dengan status kepatuhan Azure Security Center.  Informasi dapat dilihat menurut grup, kebijakan, sumber daya yang tidak sesuai, atau kejadian.
+1. Perhatikan informasi yang disediakan oleh dasbor yang diperbarui untuk mencerminkan item yang dipilih, definisi inisiatif ASC Default.  Harap diingat bahwa definisi inisiatif adalah kumpulan definisi kebijakan yang disesuaikan untuk mencapai tujuan tunggal yang menyeluruh. Informasi dapat dilihat menurut grup, kebijakan, sumber daya yang tidak sesuai, atau kejadian.
 
-1. Kembali ke halaman beranda kebijakan dengan memilih **Policy** di sudut kiri atas layar, di atas teks ASC Default.
+1. Keluar dari halaman ASC dan kembali ke halaman beranda Kebijakan dengan memilih **X** di pojok kanan atas jendela.
 
 1. Dari panel navigasi sebelah kiri, pilih **Getting started**.  Di sini, Anda dapat melihat berbagai opsi termasuk opsi untuk menelusuri kebijakan bawaan dan menetapkan kebijakan dalam skala besar, Anda dapat membuat definisi kebijakan khusus untuk lingkungan Anda, merekomendasikan penetapan kebijakan, dan banyak lagi.
 

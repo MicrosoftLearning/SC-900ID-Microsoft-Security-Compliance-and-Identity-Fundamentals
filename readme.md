@@ -1,4 +1,4 @@
-﻿# SC-900: Dasar-Dasar Keamanan, Kepatuhan, dan Identitas Microsoft
+# SC-900: Dasar-Dasar Keamanan, Kepatuhan, dan Identitas Microsoft
 
 Repositori ini mencakup skrip demo dan instruksi lab untuk **SC-900T00: Dasar-Dasar Keamanan, Kepatuhan, dan Identitas Microsoft**.  Skrip demo dan lab mengasumsikan akses ke penyewa WWL M365 Enterprise 2019 SPE_E5 yang telah dikonfigurasi sebelumnya, tersedia melalui penyedia host lab resmi (ALH) dan penggunaan langganan Azure menggunakan pass Azure.  Azure pass dipanggil untuk memastikan bahwa langganan Azure disiapkan menggunakan kredensial yang sama dengan penyewa Microsoft 365 yang disediakan oleh ALH (yaitu, Azure pass ditebus menggunakan kredensial yang sama dengan penyewa Microsoft 365).  Hal ini memungkinkan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.  Skrip demo dan instruksi lab dapat dijalankan di penyewa Microsoft 365 dan langganan Azure milik pengguna, tetapi tidak dijamin, karena beberapa fitur mungkin tidak diaktifkan dengan langganan pribadi pengguna.
 
@@ -31,7 +31,7 @@ Antarmuka pengguna (UI) untuk Microsoft 365 dan Azure terus diperbarui.  Karena 
 
 ## Bagaimana cara saya berkontribusi?
 
-- Setiap MCT dapat mengirimkan permintaan penarikan kode atau konten di repro GitHub, Microsoft dan penulis kursus akan melakukan triase serta menyertakan konten dan perubahan kode lab sesuai kebutuhan.
+- Setiap MCT dapat mengirimkan permintaan penarikan kode atau konten di repo GitHub, Microsoft dan penulis kursus akan melakukan triase serta menyertakan konten dan perubahan kode lab sesuai kebutuhan.
 
 - Anda dapat mengirimkan bug, perubahan, penyempurnaan, dan ide.  Menemukan fitur Azure baru sebelum kami?  Kirimkan demo baru!
 
