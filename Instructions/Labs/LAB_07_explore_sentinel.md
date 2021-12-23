@@ -1,20 +1,20 @@
 ---
 lab:
-    title: 'Menjelajahi Azure Sentinel'
-    module: 'Modul 3 Pelajaran 3: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan kemampuan keamanan Azure Sentinel'
+    title: 'Menjelajahi Microsoft Sentinel'
+    module: 'Modul 3 Pelajaran 3: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan kemampuan keamanan Microsoft Sentinel'
 ---
 
 
-# Lab: Menjelajahi Azure Sentinel 
+# Lab: 'Menjelajahi Microsoft Sentinel' 
 
 ## Skenario lab
-Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda juga akan menyiapkan izin untuk memastikan akses ke sumber daya yang akan disebarkan untuk mendukung Azure Sentinel.  Setelah penyiapan dasar ini selesai, Anda akan mempelajari langkah-langkah menghubungkan Sentinel ke sumber data Anda, gunakan analitik bawaan untuk mendapatkan pemberitahuan tentang semua hal yang mencurigakan, dan di penghujung pelatihan Anda akan menjelajahi kemampuan otomatisasi.  
+Pada lab ini, Anda akan mempelajari proses membuat instans Microsoft Sentinel.  Anda juga akan menyiapkan izin guna memastikan akses ke sumber daya yang akan disebarkan untuk mendukung Microsoft Sentinel.  Setelah penyiapan dasar ini selesai, Anda akan mempelajari langkah-langkah menghubungkan Microsoft Sentinel ke sumber data, menggunakan analitik bawaan untuk mendapatkan pemberitahuan tentang semua hal yang mencurigakan, dan di penghujung pelatihan, Anda akan menjelajahi kemampuan otomatisasi.  
 
   
 
 **Perkiraan Waktu**: 30-45 menit
 
-#### Tugas 1:  Membuat contoh Azure Sentinel.
+#### Tugas 1:  Membuat instans Microsoft Sentinel.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.
 
@@ -26,18 +26,18 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 3. Pada pojok kiri atas layar, di sebelah yang bertuliskan Microsoft Azure klik ikon menu portal Tampilkan (tiga garis horizontal yang juga disebut sebagai ikon hamburger) lalu klik **All Services**.  
 
-4. Di kotak layanan filter, masukkan **Sentinel**, lalu klik **Azure Sentinel** dari daftar.
+4. Di kotak layanan filter, masukkan **Microsoft Sentinel**, lalu pilih **Microsoft Sentinel** dari daftar.
 
-5. Dari halaman Azure Sentinel, pilih **Create Azure Sentinel**.
+5. Dari halaman Microsoft Sentinel, pilih **Create Microsoft Sentinel**.
 
-6. Dari halaman Tambahkan Sentinel Azure ke halaman ruang kerja, pilih **Create a new workspace**.
+6. Dari halaman Tambahkan Microsoft Sentinel ke halaman ruang kerja, pilih **Create a new workspace**.
 
 7. Darii tab dasar ruang kerja Buat Log Analitik, masukkan berikut ini:
     1. Langganan:  **Azure Pass – Sponsorship**
    
     1. Grup sumber daya: pilih **Create New**, lalu masukkan nama **SC900-ResourceGroup**, lalu pilih **OK**.
     1. Nama: **SC900-LogAnalytics-workspace**.
-    1. Kawasan:::: **East US** (biarkan default)
+    1. Kawasan: **East US** (biarkan default)
     1. Pilih **Next: Tingkat harga >**
 
 8. Untuk Tingkat Harga, biarkan pengaturan default: **Pay-as-you-go (per GB 2018)**, lalu pilih **Next: Tags >**.
@@ -48,17 +48,17 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 11. Jika Anda tidak melihat ruang kerja baru terdaftar, klik **Refresh**, lalu klik **Add**.
 
-12. Setelah ruang karja baru ditambahkan, halaman berita & panduan | Azure Sentinel akan muncul.  Perhatikan tiga langkah yang terdaftar pada halaman Memulai.
+12. Setelah ruang karja baru ditambahkan, halaman berita & panduan | Microsoft Sentinel akan muncul.  Perhatikan tiga langkah yang terdaftar pada halaman Memulai.
 
 13. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
 
-#### Tugas 2:  Karena contoh Azure Sentinel sudah dibuat, Anda pasti ingin memastikan bahwa Anda memiliki akses yang diperlukan ke sumber daya yang disebar untuk mendukung Azure Sentinel.  Di tugas ini, Anda akan membuka halaman kontrol akses (IAM) untuk grup sumber daya yang sudah Anda buat dengan contoh Azure Sentinel, melihat peran yang tersedia, dan menetapkan Anda (administrator MOD) sebagai pemegang peran yang diperlukan. Menetapkan peran di tingkat grup sumber daya akan memastikan peran akan diterapkan ke seluruh sumber daya yang disebar untuk mendukung Azure Sentinel.
+#### Tugas 2:  Karena instans Microsoft Sentinel sudah dibuat, Anda pasti ingin memastikan bahwa Anda memiliki akses yang diperlukan ke sumber daya yang disebar untuk mendukung Microsoft Sentinel.  Pada tugas ini, Anda akan membuka halaman kontrol akses (IAM) untuk grup sumber daya yang sudah Anda buat dengan instans Microsoft Sentinel, melihat peran yang tersedia, dan menetapkan Anda (administrator MOD) sebagai pemegang peran yang diperlukan. Menetapkan peran di tingkat grup sumber daya akan memastikan peran akan diterapkan ke seluruh sumber daya yang disebar untuk mendukung Microsoft Sentinel.
 
-1. Dari halaman Azure Sentinel, di sudut kiri atas halaman, di atas tempat tertulis Azure Sentinel, pilih **All Services**.
+1. Dari halaman Microsoft Sentinel, di sudut kiri atas halaman, di atas tempat yang bertuliskan Microsoft Sentinel, pilih **All Services**.
 
 2. Di kotak layanan filter, masukkan grup sumber daya, lalu dari daftar yang disediakan, pilih **Resource groups**.
 
-3. Di halaman Grup sumber daya, klik grup sumber daya yang Anda buat dengan Azure Sentinel, **SC900-ResourceGroup**.
+3. Di halaman Grup sumber daya, klik grup sumber daya yang Anda buat dengan Microsoft Sentinel, **SC900-ResourceGroup**.
 
 4. Di SC900-ResourceGroup, klik **Access control (IAM)** di panel navigasi sebelah kiri.
 
@@ -66,7 +66,7 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 6. Dari halaman Kontrol akses, pilih **+Add**, lalu pilih **Add role assignment**.
 
-7. Jendela Tambahkan penetapan peran akan terbuka.  Pilih panah tarik-turun di bidang Pilih peran untuk menampilkan peran yang tersedia.  Untuk lab ini, klik **Owner**.  CATATAN:  Untuk praktik terbaiknya Anda harus menetapkan hak istimewa minimum yang diperlukan untuk peran.  Sebagai referensi, tinjau izin di Azure Sentinel:  https://docs.microsoft.com/id-id/azure/sentinel/roles
+7. Jendela Tambahkan penetapan peran akan terbuka.  Pilih panah tarik-turun di bidang Pilih peran untuk menampilkan peran yang tersedia.  Untuk lab ini, klik **Owner**.  CATATAN:  Untuk praktik terbaiknya Anda harus menetapkan hak istimewa minimum yang diperlukan untuk peran.  Sebagai referensi, tinjau izin di Microsoft Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
 
 8. Dari daftar pengguna yang ditampilkan, pilih **MOD Administrator**.
 
@@ -76,13 +76,13 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 11. Kembali ke halaman Semua layanan Azure, dengan mengeklik **All Services** di pojok kiri atas halaman, di atas yang bertuliskan Grup sumber daya.
 
-#### Tugas 3:  Di tugas ini, Anda akan mempelajari proses menghubungkan Azure Sentinel ke data sumber Anda untuk memulai mengumpulkan data. Catatan: Perlu waktu yang lama untuk menampilkan status terhubung konektor (~30 menit, tergantung pada penyewa).
+#### Tugas 3:  Pada tugas ini, Anda akan mempelajari proses menghubungkan Microsoft Sentinel ke data sumber Anda untuk mulai mengumpulkan data. Catatan: Perlu waktu yang lama untuk menampilkan status terhubung konektor (~30 menit, tergantung pada penyewa).
 
-1. Di Kotak layanan filter dari halaman Semua layanan, masukkan **Azure Sentinel**, lalu klik **Azure Sentinel** di daftar hasil. 
+1. Di Kotak layanan filter dari halaman Semua layanan, masukkan **Microsoft Sentinel**, lalu klik **Microsoft Sentinel** darii daftar hasil. 
 
-2. Dari halaman Azure Sentinel, pilih ruang kerja yang Anda buat dengan contoh Azure Sentinel, **SC900-LogAnalytics-workspace**.
+2. Dari halaman Microsoft Sentinel, pilih ruang kerja yang Anda buat dengan instans Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
 
-3. Langkah pertama dengan Azure Sentinel adalah dapat mengumpulkan data. Dari panel navigasi kiri, pilih **Data connectors**, yang terdaftar di bawah konfigurasi.
+3. Langkah pertama dengan Microsoft Sentinel adalah dapat mengumpulkan data. Dari panel navigasi kiri, pilih **Data connectors**, yang terdaftar di bawah konfigurasi.
 
 4. Dari halaman Konektor data, gulir ke bawah pada jendela utama untuk melihat daftar ekstensif konektor yang tersedia. Di kotak Pencarian halaman konektor data, masukkan **Azure**, lalu dari daftar pilih **Azure Active Directory**.
 
@@ -90,7 +90,7 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 6. Dari halaman konektor Azure Active Directory, tinjau deskripsi dan catat konten terkait yang menyertakan buku kerja, kueri, dan templat aturan analitik.  
 
-7. Tab instruksi di jendela utama, menyediakan fasilitas tambahan untuk Azure Sentinel guna diintegrasikan dengan Azure Active Directory.   Di bawah konfigurasi, pilih **Sign-in logs**, lalu pilih Apply Changes (dapat memilih beberapa konektor).
+7. Tab instruksi di jendela utama, menyediakan fasilitas tambahan untuk Microsoft Sentinel guna diintegrasikan dengan Azure Active Directory.   Di bawah konfigurasi, pilih **Sign-in logs**, lalu pilih Apply Changes (dapat memilih beberapa konektor).
 
 8. Di tab Langkah selanjutnya, catat daftar buku kerja yang direkomendasikan.   Di bawah buku kerja yang direkomendasikan, pilih **Azure Sign-in logs** (dapat memilih buku kerja tambahan).
 
@@ -98,7 +98,7 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 10. Dari jendela log masuk Azure AD yang terbuka, tinjau deskripsi, dan pilih **View template**.  Keluar dari templat, dengan mengeklik **X** di pojok kanan atas layar.  Pilih **Save** dari bagian bawah halaman, lalu pilih **OK** untuk menyimpan buku kerja ke lokasi default.
 
-11. Di pojok kiri atas dari halaman Buku kerja, di atas yang bertuliskan Buku kerja, klik **Azure Sentinel**. Ini akan mengembalikan Anda ke halaman Konektor Data Azure Sentinel.
+11. Di pojok kiri atas dari halaman Buku kerja, di atas yang bertuliskan Buku kerja, **Microsoft Sentinel**. Ini akan mengembalikan Anda ke halaman Konektor Data Microsoft Sentinel.
 
 12. Di bagian atas halaman Konektor data akan menampilkan 1 terhubung, untuk menunjukkan bahwa sekarang Anda sudah terhubung ke Azure Active Directory.
 
@@ -112,7 +112,7 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 1. Di panel navigasi sebelah kiri, klik **Analitik**.
 
-2. Halaman analitik akan menampilkan aturan yang aktif (Deteksi serangan multitahap tingkat lanjut diaktifkan secara default) dan akan menyediakan akses ke Templat aturan.  Pilih tab **Rule templates**.  Perhatikan daftar templat yang tersedia dan cara lain untuk memfilter daftar.  Dengan menggunakan peringatan analitik bawaan dalam ruang kerja Azure Sentinel, Anda akan diberi tahu jika terjadi sesuatu yang mencurigakan.
+2. Halaman analitik akan menampilkan aturan yang aktif (Deteksi serangan multitahap tingkat lanjut diaktifkan secara default) dan akan menyediakan akses ke Templat aturan.  Pilih tab **Rule templates**.  Perhatikan daftar templat yang tersedia dan cara lain untuk memfilter daftar.  Dengan menggunakan peringatan analitik bawaan dalam ruang kerja Microsoft Sentinel, Anda akan diberi tahu jika terjadi sesuatu yang mencurigakan.
 
 3. Di bilah Pencarian, masukkan **Azure Portal**.  Pilih **Failed login attempts to Azure Portal**.  
 
@@ -122,7 +122,7 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 6. Halaman Setel logika aturan, adalah tempat Anda menentukan logika untuk aturan analitik baru Anda. Templat sudah menyediakan beberapa logika dan pengaturan yang telah ditentukan sebelumnya.  Gulir halaman untuk melihat pengaturan yang tersedia.  Biarkan default. Pilih **Next: Incident settings (preview)>**.
 
-7. Dengan pengaturan Insiden, peringatan Azure Sentinel dapat dikelompokkan bersama menjadi Insiden yang harus diperhatikan. Anda dapat menyetel apakah peringatan yang dipicu oleh aturan analitik ini harus menghasilkan insiden.  Biarkan pengaturan default dan pilih **Next: Automated response >**.
+7. Dengan pengaturan Insiden, Microsoft Sentinel dapat dikelompokkan bersama menjadi Insiden yang harus diperhatikan. Anda dapat menyetel apakah peringatan yang dipicu oleh aturan analitik ini harus menghasilkan insiden.  Biarkan pengaturan default dan pilih **Next: Automated response >**.
 
 8. Di tab Respons otomatis, perhatikan bagaimana Anda dapat menambahkan buku pedoman untuk mengotomatiskan respons.  Demikian pula, Anda dapat membuat aturan otomatisasi insiden.  Pilih **+ Add** baru di bawah otomatisasi insiden.  Jendela untuk membuat aturan otomatisasi baru akan terbuka.  Aturan otomatisasi apa pun yang Anda buat di halaman ini dipicu oleh aturan analitik Anda c Perhatikan bahwa Anda dapat menambahkan ketentuan dan menetapkan tindakan untuk aturan tersebut.   Pilih **Cancel** untuk keluar dari jendela.
 
@@ -141,13 +141,13 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 4. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
 
 
-#### Tugas 6:  Menghapus grup Sumber Daya Azure Sentinel.  Azure Sentinel ditagih berdasarkan volume data yang diserap untuk analisis di Azure Sentinel. Meskipun jumlah data yang diserap sebagai hasil dari lab ini minimal, sebaiknya Anda menghapus grup sumber daya Azure Sentinel saat Anda selesai menjelajahi fitur kemampuan Azure Sentinel.
+#### Tugas 6:  Menghapus grup Sumber Daya Microsoft Sentinel.  Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis di Microsoft Sentinel. Meskipun jumlah data yang diserap sebagai hasil dari lab ini minimal, sebaiknya Anda menghapus grup sumber daya Microsoft Sentinel saat Anda selesai menjelajahi fitur kemampuan Microsoft Sentinel.
 
-1. Dari halaman Azure Sentinel, di sudut kiri atas halaman, di atas tempat tertulis Azure Sentinel, pilih **All Services**.
+1. Dari halaman Microsoft Sentinel, di sudut kiri atas halaman, di atas tempat yang bertuliskan Microsoft Sentinel, pilih **All Services**.
 
 2. Di kotak layanan filter, masukkan grup sumber daya, lalu dari daftar yang disediakan, pilih **Resource groups**.
 
-3. Di halaman Grup sumber daya, klik grup sumber daya yang Anda buat dengan Azure Sentinel, **SC900-ResourceGroup**.
+3. Di halaman Grup sumber daya, klik grup sumber daya yang Anda buat dengan Microsoft Sentinel, **SC900-ResourceGroup**.
 
 4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya, **SC900-ResourceGroup**, lalu klik **Delete** di bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
 
@@ -156,4 +156,4 @@ Di lab ini, Anda akan mempelajari proses membuat contoh Azure Sentinel.  Anda ju
 
 #### Tinjauan
 
-Di lab ini, Anda sudah mempelajari proses membuat contoh Azure Sentinel.  Anda juga sudah menyiapkan izin untuk memastikan akses ke sumber daya yang dikaitkan dengan contoh Azure Sentinel Anda.  Setelah contoh Azure Sentinel Anda dihasilkan, Anda sudah mempelajari langkah-langkah menghubungkan Sentinel ke sumber data, menggunakan aturan analitik bawaan untuk mendapatkan pemberitahuan tentang semua hal yang mencurigakan, dan di penghujung pelatihan Anda sudah menjelajahi kemampuan otomatisasi. Anda sudah menyelesaikan lab dengan menghapus grup sumber daya yang dikaitkan dengan contoh Azure Sentinel yang Anda buat.
+Pada lab ini, Anda sudah mempelajari proses membuat instans Microsoft Sentinel.  Anda juga sudah menyiapkan izin untuk memastikan akses ke sumber daya yang dikaitkan dengan instans Microsoft Sentinel.  Setelah instans Microsoft Sentinel dibuat, Anda sudah mempelajari langkah-langkah menghubungkan Microsoft Sentinel ke sumber data, menggunakan aturan analitik bawaan untuk mendapatkan pemberitahuan tentang semua hal yang mencurigakan, dan di penghujung pelatihan, Anda sudah menjelajahi kemampuan otomatisasi. Anda sudah menyelesaikan lab dengan menghapus grup sumber daya yang dikaitkan dengan instans Microsoft Sentinel yang Anda buat.

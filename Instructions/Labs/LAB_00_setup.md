@@ -47,8 +47,6 @@ Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microso
 
 1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka ke halaman selamat datang di pusat kepatuhan Microsoft 365.  
 
-1. Dari panel navigasi sebelah kiri pada pusat kepatuhan Microsoft 365, pilih **Show all**.
-
 1. Dari panel navigasi sebelah kiri, di bagian solusi, pilih **Audit**.  Catatan: fungsi audit juga dapat diakses melalui halaman beranda Pertahanan Microsoft 365 (sebelumnya disebut sebagai pusat keamanan Microsoft 365).
 
 1. Verifikasi bahwa tab **Search** dipilih (digarisbawahi).
