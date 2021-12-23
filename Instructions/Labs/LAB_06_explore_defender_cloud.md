@@ -1,7 +1,7 @@
 ---
 lab:
-    judul: ‘Mempelajari Pertahanan Microsoft untuk Cloud '
-    modul: ‘Modul 3 Pelajaran 2: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan kemampuan manajemen keamanan Azure’
+    title: 'Mempelajari Pertahanan Microsoft untuk Cloud'
+    modul: 'Modul 3 Pelajaran 2: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan kemampuan manajemen keamanan Azure'
 ---
 
 # Lab: Mempelajari Pertahanan Microsoft untuk Cloud

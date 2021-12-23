@@ -37,7 +37,7 @@ Pada lab ini, Anda akan mempelajari proses membuat instans Microsoft Sentinel.  
    
     1. Grup sumber daya: pilih **Create New**, lalu masukkan nama **SC900-ResourceGroup**, lalu pilih **OK**.
     1. Nama: **SC900-LogAnalytics-workspace**.
-    1. Kawasan:::: **East US** (biarkan default)
+    1. Kawasan: **East US** (biarkan default)
     1. Pilih **Next: Tingkat harga >**
 
 8. Untuk Tingkat Harga, biarkan pengaturan default: **Pay-as-you-go (per GB 2018)**, lalu pilih **Next: Tags >**.

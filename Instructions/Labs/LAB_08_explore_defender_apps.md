@@ -1,7 +1,7 @@
 ---
 lab:
-    judul: ‘Mempelajari Pertahanan Microsoft untuk Aplikasi Cloud '
-    modul: ‘Modul 3 Pelajaran 4: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan perlindungan terhadap ancaman dengan Pertahanan Microsoft 365’
+    title: 'Mempelajari Pertahanan Microsoft untuk Aplikasi Cloud'
+    module: 'Modul 3 Pelajaran 4: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan perlindungan terhadap ancaman dengan Pertahanan Microsoft 365'
 ---
 
 

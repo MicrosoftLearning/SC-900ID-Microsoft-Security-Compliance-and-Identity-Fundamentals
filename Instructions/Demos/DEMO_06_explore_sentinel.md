@@ -51,7 +51,7 @@ Pada demo ini, Anda akan mempelajari proses membuat instans Microsoft Sentinel. 
 
 1. Dari halaman Kontrol akses, pilih **+Add**, lalu pilih **Add role assignment**.
 
-1. Jendela Tambahkan penetapan peran akan terbuka.  Pilih panah tarik-turun di bidang Pilih peran untuk menampilkan peran yang tersedia. Di kotak pencarian pilih peran, ketikkan **Microsoft sentinel** untuk melihat 4 peran yang terkait dengan Microsoft Sentinel. Untuk praktik terbaiknya Anda harus menetapkan hak istimewa minimum yang diperlukan untuk peran.  Untuk kenyamanan lab ini, masukkan **Owner** di kotak pencarian dan pilih **Owner** dari hasil tersebut.  Sebagai referensi, tinjau izin di Microsoft Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+1. Jendela Tambahkan penetapan peran akan terbuka.  Pilih panah tarik-turun di bidang Pilih peran untuk menampilkan peran yang tersedia. Di kotak pencarian pilih peran, ketikkan **Microsoft sentinel** untuk melihat 4 peran yang terkait dengan Microsoft Sentinel. Untuk praktik terbaiknya Anda harus menetapkan hak istimewa minimum yang diperlukan untuk peran.  Untuk kenyamanan lab ini, masukkan **Owner** di kotak pencarian dan pilih **Owner** dari hasil tersebut.  Sebagai referensi, tinjau izin di Microsoft Sentinel:  https://docs.microsoft.com/id-id/azure/sentinel/roles
 
 1. Dari daftar pengguna yang ditampilkan, pilih **MOD Administrator**.
 
@@ -74,8 +74,8 @@ Pada demo ini, Anda akan mempelajari proses membuat instans Microsoft Sentinel. 
 1. Dari halaman konektor Azure Active Directory, tinjau deskripsi dan catat konten terkait yang menyertakan buku kerja, kueri, dan templat aturan analitik.  
 
 1. Tab instruksi di jendela utama, menyediakan fasilitas tambahan untuk Microsoft Sentinel guna diintegrasikan dengan Azure Active Directory.   Di bawah konfigurasi, pilih **Sign-in logs**, lalu pilih Apply Changes (dapat memilih beberapa konektor).  Catatan: perlu beberapa saat sebelum Anda melihat status konektor terhubung (~30 menit atau lebih).  Sebagai acuan:
-    1. Tinjau izin di Microsoft Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
-    1. Sambungkan ke Azure Active Directory:  https://docs.microsoft.com/en-us/azure/sentinel/connect-azure-active-directory
+    1. Tinjau izin di Microsoft Sentinel:  https://docs.microsoft.com/id-id/azure/sentinel/roles
+    1. Sambungkan ke Azure Active Directory:  https://docs.microsoft.com/id-id/azure/sentinel/connect-azure-active-directory
 
 1. Di tab Langkah selanjutnya, catat daftar buku kerja yang direkomendasikan.   Di bawah buku kerja yang direkomendasikan, pilih **Azure Sign-in logs** (dapat memilih buku kerja tambahan).
 

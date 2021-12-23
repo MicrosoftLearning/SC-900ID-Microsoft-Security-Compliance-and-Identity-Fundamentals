@@ -50,7 +50,7 @@ Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan damp
 
 1. Dari tab Dasar grup untuk Membuat sumber daya, biarkan bidang Langganan apa adanya, Azure Pass - Sponsorship.
 
-1. Di bidang grup Sumber daya, masukkan, ** SC900-Labs**.
+1. Di bidang grup Sumber daya, masukkan, **SC900-Labs**.
 
 1. Biarkan pengaturan Wilayah tetap default, lalu pilih **Next: Tags**.
 
