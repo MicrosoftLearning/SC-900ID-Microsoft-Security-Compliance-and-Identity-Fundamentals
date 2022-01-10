@@ -25,13 +25,13 @@ Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan C
 
 1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
 
-1. Di bawah Pusat admin, pilih **Security**.  Halaman browser baru terbuka ke halaman selamat datang di portal Pertahanan Microsoft 365.  
+1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka ke halaman selamat datang di pusat kepatuhan Microsoft 365.  
 
-1. Dari panel navigasi sebelah kiri portal Pertahanan Microsoft 365, pilih **Permissions & roles**.  Anda mungkin perlu menggulir ke bawah untuk melihat opsi ini.
+1. Dari panel navigasi sebelah kiri, pilih **Permissions**. 
 
-1. Dari halaman Izin dan peran, di bagian **Email & collaboration roles**, pilih **Roles**.
+1. Dari halaman Izin & peran, pada bagian Pusat kepatuhan, pilih **Roles**.
 
-1. Di bilah pencarian, masukkan **eDiscovery**, lalu pilih ikon pencarian (kaca pembesar).  Pilih **eDiscovery Manager**.
+1. Di bidang pencarian, ketikkan **eDiscovery**, lalu pilih ikon pencarian (kaca pembesar).  Pilih **eDiscovery Manager**.
 
 1. Di jendela yang terbuka, perhatikan bagaimana ada dua subgrup, Manajer eDiscovery dan Administrator eDiscovery.  Baca deskripsi masing-masing.  Untuk lab ini, kita akan menambahkan anggota ke subgrup Administrator eDiscovery. Pilih **Edit**, di samping Administrator eDiscovery.  Sebagai praktik terbaik secara umum, pengguna akan diberi hak istimewa paling sedikit yang diperlukan untuk peran mereka.
 
@@ -45,15 +45,11 @@ Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan C
 
 1. Dari bagian bawah jendela eDiscovery, pilih **Close**.
 
-1. Biarkan tab browser ini tetap terbuka, karena Anda akan menggunakannya dalam tugas berikutnya.
+1. Biarkan tab browser ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
 
 #### Tugas 2:  Dalam tugas ini, Anda sebagai Administrator eDiscovery (admin MOD adalah administrator eDiscovery), akan membuat kasus untuk mulai menggunakan Core eDiscovery.
 
-1. Buka tab pusat admin Microsoft 365 di browser Anda.
-
-1. Dari panel navigasi sebelah kiri, di bagian Pusat Admin, pilih **Compliance**.
-
-1. Sekarang anda berada di pusat kepatuhan Microsoft 365. Dari panel navigasi sebelah kiri, pilih **Show all**.
+1. Anda akan tetap berada di halaman Peran pusat kepatuhan. Jika Anda telah menutup tab browser dari tugas sebelumnya, buka tab browser baru, dan ketikkan **compliance.microsoft.com**
 
 1. Dari panel navigasi sebelah kiri di bagian Solusi, pilih **eDiscovery**, lalu pilih **Core**.
 
@@ -61,7 +57,7 @@ Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan C
 
 1. Di jendela Kasus baru, masukkan nama Kasus, **SC900 Test Case**, lalu pilih **Save** di bagian bawah halaman.
 
-1. Kasus ini sekarang akan muncul dalam daftar. 
+1. Kasus ini sekarang akan muncul dalam daftar.
 
 1. Sebagai pembuat kasus dan karena Anda memiliki hak istimewa Administrator eDiscovery, Anda dapat mulai bekerja dengannya.  
 
@@ -77,7 +73,7 @@ Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan C
 
 1. Di bidang nama, masukkan **Test hold**, lalu pilih NeXT.
 
-1. Di halaman Pilih lokasi, pilih tombol sakelar di samping email Exchange untuk mengatur status ke **On**, klik **Choose users, groups, or teams**.  Di kotak pencarian, masukkan **Adele**, lalu tekan enter di keyboard. Dari hasil pencarian pilih **Adele Vance**, lalu klik Pilih, kemudian pilih **Done**.
+1. Di halaman Pilih lokasi, pilih tombol sakelar di samping **Exchange mailboxes** untuk mengatur status ke **On**, klik **Choose users, groups, or teams**.  Di kotak pencarian, masukkan **Adele**, lalu tekan enter di keyboard. Dari hasil pencarian pilih **Adele Vance**, lalu klik Pilih, kemudian pilih **Done**.
 
 1. Dari halaman Pilih lokasi, pilih **Next**.  Untuk kemanfaatan dengan lab, tidak ada lokasi lain yang akan disertakan dalam penangguhan ini.
 
@@ -97,7 +93,7 @@ Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan C
 
 1. Di bidang Nama, masukkan **Test Hold – Sales Search**, lalu pilih **Next** dari bagian bawah halaman.
 
-1. Di halaman Pilih lokasi, pilih tombol sakelar di samping email Exchange untuk mengatur status ke **On**, klik **Choose users, groups, or teams**.  Di kotak pencarian, masukkan **Adele**, lalu tekan enter di keyboard. Dari hasil pencarian pilih **Adele Vance**, pilih **Done**, lalu pilih **Next**.  Tidak ada lokasi lain yang akan dimasukkan dalam pencarian ini
+1. Di halaman Pilih lokasi, pilih tombol sakelar di samping **Exchange mailboxes** untuk mengatur status ke **On**, klik **Choose users, groups, or teams**.  Di kotak pencarian, masukkan **Adele**, lalu tekan enter di keyboard. Dari hasil pencarian pilih **Adele Vance**, pilih **Done**, lalu pilih **Next**.  Tidak ada lokasi lain yang akan dimasukkan dalam pencarian ini
 
 1. Halaman kondisi kueri memungkinkan Anda membuat pencarian, berdasarkan Kata Kunci atau Ketentuan tertentu yang dipenuhi. Di bidang kata kunci masukkan **Sales**, pilih **Next**.
 

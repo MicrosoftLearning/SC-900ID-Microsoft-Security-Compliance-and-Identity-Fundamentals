@@ -18,7 +18,7 @@ Dalam demo ini, Anda akan mempelajari Pertahanan Microsoft untuk Cloud dan menun
 
 1. Perhatikan informasi yang tersedia pada halaman gambaran umum Pertahanan Microsoft untuk Cloud.  Catatan: Anda mungkin melihat kotak informasi warna biru pada bagian atas halaman yang menunjukkan bahwa Anda mungkin sedang melihat informasi yang dirahasiakan.  Jangan dipilih (bisa memakan waktu hingga 15 menit untuk memproses dan tidak membuat perbedaan untuk demo ini).
 
-1. Informasi di bagian atas halaman mencatumkan jumlah langganan Azure, jumlah Sumber daya yang dinilai, jumlah rekomendasi yang aktif, serta peringatan keamanan.  Di bagian isi halaman ada kartu yang mewakili Skor aman, Kepatuhan terhadap peraturan, Wawasan, Azure Defender, dan banyak lainnya.  
+1. Informasi di bagian atas halaman mencatumkan jumlah langganan Azure, jumlah Sumber daya yang dinilai, jumlah rekomendasi yang aktif, serta peringatan keamanan.  Di bagian isi halaman, ada kartu yang mewakili Skor aman, Kepatuhan terhadap peraturan, Wawasan, dan banyak lagi.  
 
 1. Dari bagian atas halaman, pilih **Assessed resources**.  (Perhatikan bahwa ini sama dengan memilih Inventaris dari panel navigasi kiri halaman beranda Pertahanan Microsoft untuk Cloud).
     1. Ini membawa Anda ke halaman **Inventory** yang menunjukkan langganan Azure pass Anda.  Pilih **Azure Pass – Sponsorship**.
@@ -49,3 +49,4 @@ Dalam demo ini, Anda akan mempelajari Pertahanan Microsoft untuk Cloud dan menun
 ## Tinjauan
 
 Dalam demo ini, Anda telah mempelajari Pertahanan Microsoft untuk Cloud dan menunjukkan bagaimana Skor Aman Azure dapat digunakan untuk meningkatkan kondisi keamanan organisasi.
+
