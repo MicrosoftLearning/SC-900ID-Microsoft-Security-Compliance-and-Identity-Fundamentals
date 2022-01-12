@@ -25,13 +25,13 @@ Di lab ini, Anda akan mempelajari proses penyiapan kebijakan risiko dari dalam, 
 
 1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
 
-1. Di bawah Pusat admin, pilih **Security**.  Halaman browser baru terbuka ke halaman selamat datang di portal Pertahanan Microsoft 365.  
+1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka ke halaman selamat datang di pusat kepatuhan Microsoft 365.  
 
-1. Dari panel navigasi sebelah kiri portal Pertahanan Microsoft 365, pilih **Permissions & roles**.  Anda mungkin perlu menggulir ke bawah untuk melihat opsi ini.
+1. Dari panel navigasi sebelah kiri pada Pusat kepatuhan Microsoft 365, pilih **Permissions**.
 
-1. Dari halaman Izin dan peran, di bagian **Email & collaboration roles**, pilih **Roles**.
+1. Dari halaman Izin & peran, pada bagian Pusat kepatuhan, pilih **Roles**.
 
-1. Di bilah pencarian, masukkan **Insider risk**, lalu pilih ikon pencarian (kaca pembesar).  Perhatikan lima peran yang muncul.  Masing-masing memiliki tingkat akses yang berbeda.  Pilih **Insider risk management**. 
+1. Di bilah pencarian, masukkan **Insider risk**, lalu pilih ikon pencarian (kaca pembesar).  Perhatikan berbagai peran yang muncul.  Masing-masing memiliki tingkat akses yang berbeda.  Pilih **Insider risk management**.
 
 1. Di jendela yang terbuka, di samping teks Anggota, pilih **Edit**.
 
@@ -45,16 +45,14 @@ Di lab ini, Anda akan mempelajari proses penyiapan kebijakan risiko dari dalam, 
 
 1. Dari bagian bawah jendela Manajemen Risiko Dari Dalam, pilih **Close**.
 
+1. Dari panel navigasi sebelah pilih **Home** untuk kembali ke halaman pusat kepatuhan Microsoft 365.
+
 1. Biarkan tab browser ini tetap terbuka, karena Anda akan kembali lagi di tugas berikutnya.
 
 
 #### Tugas 2 (LEWATI jika Anda telah menyiapkan tugas lab untuk mengaktifkan log audit): Manajemen risiko dari dalam menggunakan log audit Microsoft 365 untuk wawasan dan aktivitas pengguna yang diidentifikasi dalam kebijakan dan wawasan analitik. Dalam tugas ini, Anda akan mengaktifkan kemampuan pencarian log Audit. Catatan:  Mungkin diperlukan waktu beberapa jam setelah mengaktifkan pencarian log audit sebelum Anda dapat mengembalikan hasil saat mencari log audit.  Meskipun perlu beberapa jam sebelum Anda dapat menelusuri log audit, hal itu tidak akan memengaruhi kemampuan untuk menyelesaikan tugas lain di lab ini.
 
-1. Pilih tab browser berlabel, **Microsoft 365 admin center - Home**.  Jika sebelumnya Anda menutup tab browser ini, buka Microsoft Edge dan di bilah alamat, masukkan **admin.microsoft.com**, lalu masuk dengan kredensial admin Anda.
-
-1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka ke halaman selamat datang di pusat kepatuhan Microsoft 365.  
-
-1. Dari panel navigasi sebelah kiri pada pusat kepatuhan Microsoft 365, pilih **Show all**.
+1. Pilih tab browser berlabel, **Home-Microsoft 365 compliance**.  Jika sebelumnya Anda menutup tab browser ini, buka Microsoft Edge dan di bilah alamat, masukkan **compliance.microsoft.com**, lalu masuk dengan kredensial admin Anda.
 
 1. Dari panel navigasi sebelah kiri, di bagian solusi, pilih **Audit**.
 
@@ -73,12 +71,12 @@ Di lab ini, Anda akan mempelajari proses penyiapan kebijakan risiko dari dalam, 
 1. Dari panel navigasi sebelah kiri, di bagian Solusi, pilih **Insider risk management**.
 
 1. Sebelum mulai menyiapkan kebijakan, ada beberapa pengaturan yang perlu dikonfigurasi.  Dari halaman Manajemen Risiko Dari Dalam, pilih **setting cog icon** di sudut kanan atas halaman untuk mengakses pengaturan Risiko Dari Dalam.  
-    1. Tab privasi:  untuk pengguna yang melakukan aktivitas yang sesuai dengan kebijakan risiko dari dalam, pengaturan ini akan menentukan apakah akan menampilkan nama mereka yang sebenarnya atau menggunakan versi anonim untuk menutupi identitas mereka.  Pilih **Do not show anonymized versions of usernames**, lalu pilih **Save**.  Pilih tab **Indikator kebijakan**.
+    1. Pastikan Anda berada di tab **Privacy**:  untuk pengguna yang melakukan aktivitas yang sesuai dengan kebijakan risiko dari dalam, pengaturan ini akan menentukan apakah akan menampilkan nama mereka yang sebenarnya atau menggunakan versi anonim untuk menutupi identitas mereka.  Pilih **Do not show anonymized versions of usernames**, lalu pilih **Save**.
     
-    1. Tab indikator kebijakan: Setelah peristiwa pemicu kebijakan terjadi, aktivitas yang dipetakan ke indikator yang dipilih akan digunakan dalam menentukan skor risiko, bagi pengguna. Indikator kebijakan yang dipilih di sini termasuk templat kebijakan risiko Dari Dalam.  Gulir untuk melihat semua indikator yang tersedia dan informasi terkait lainnya. Di bagian **Office indicators**, klik **Select all**, lalu pilih **Save**.  Pilih tab **Policy timeframes**.
-    1. Tab kerangka waktu kebijakan:  Kerangka waktu yang Anda pilih di sini berlaku pada pengguna saat memicu kecocokan untuk kebijakan risiko dari dalam.   Jendela Aktivasi menentukan berapa lama kebijakan akan secara aktif mendeteksi aktivitas untuk pengguna dan dipicu saat pengguna melakukan aktivitas pertama yang cocok dengan kebijakan. Deteksi aktivitas sebelumnya Menentukan seberapa jauh ke belakang kebijakan untuk mendeteksi aktivitas pengguna dan dipicu saat pengguna melakukan aktivitas pertama yang cocok dengan kebijakan.  Biarkan nilai default.  Pilih tab **Intelligent detections**.
-    1. Tab deteksi cerdas:  Tinjau opsi di sini.  Perhatikan pengaturan domain dan bagaimana hubungannya dengan indikator.
-    1. Item lain yang tercantum dalam pengaturan sedang dalam pratinjau.  Pelajari hal ini saat ingin dan catat sebagai pratinjau. Ini dapat berubah sewaktu-waktu.
+    1. Pilih tab **Policy indicators**. Setelah peristiwa pemicu kebijakan terjadi, aktivitas yang dipetakan ke indikator yang dipilih akan digunakan dalam menentukan skor risiko, bagi pengguna. Indikator kebijakan yang dipilih di sini termasuk templat kebijakan risiko Dari Dalam.  Gulir untuk melihat semua indikator yang tersedia dan informasi terkait lainnya. Di bagian **Office indicators**, klik **Select all**, lalu pilih **Save**.
+    1. Pilih tab **Policy timeframes**. Kerangka waktu yang Anda pilih di sini berlaku pada pengguna saat memicu kecocokan untuk kebijakan risiko dari dalam.   Jendela Aktivasi menentukan berapa lama kebijakan akan secara aktif mendeteksi aktivitas untuk pengguna dan dipicu saat pengguna melakukan aktivitas pertama yang cocok dengan kebijakan. Deteksi aktivitas sebelumnya Menentukan seberapa jauh ke belakang kebijakan untuk mendeteksi aktivitas pengguna dan dipicu saat pengguna melakukan aktivitas pertama yang cocok dengan kebijakan.  Biarkan nilai default.  Pilih tab **Intelligent detections**.
+    1. Pilih tab **Intelligent detections**. Tinjau opsi di sini.  Perhatikan pengaturan domain dan bagaimana hubungannya dengan indikator.
+    1. Jelajahi item lain yang tercantum dalam pengaturan dan perhatikan bahwa beberapa item itu berada dalam pratinjau.
 
 1. Untuk kembali ke ringkasan Manajemen risiko dari dalam, pilih **Insider risk management** dari sudut kiri atas halaman, di atas teks Pengaturan.
 
@@ -88,7 +86,7 @@ Di lab ini, Anda akan mempelajari proses penyiapan kebijakan risiko dari dalam, 
 
 1. Anda seyogianya berada di halaman Manajemen risiko dari dalam.  Jika belum ada, buka tab browser berlabel, **Insider risk management - Microsoft 365 compliance**.
 
-1. Dari halaman Ringkasan manajemen risiko dari dalam, pilih tab **Policies**, lalu pilih **+ Create**.  Konfigurasikan setiap tab kebijakan berikut.
+1. Dari halaman Ikhtisar manajemen risiko dari dalam, pilih tab **Policies**, lalu pilih **+ Create policy**.  Konfigurasikan setiap tab kebijakan berikut.
 
     1. Kerangka kebijakan:  Dari daftar kategori, pilih **Data leaks**, lalu pilih **General data leaks**.  Perhatikan bahwa templat dalam kategori mungkin memiliki prasyarat tambahan.  Baca detail yang terkait dengan templat ini, lalu pilih **Next**.
     
@@ -98,13 +96,14 @@ Di lab ini, Anda akan mempelajari proses penyiapan kebijakan risiko dari dalam, 
         1. Situs SharePoint: Untuk contoh kebijakan ini, biarkan kosong, pilih **Next**
         1. Jenis info sensitif: untuk contoh kebijakan ini, biarkan kosong lalu pilih **Next**. 
         1. Label sensitivitas: pilih **+ Add or edit sensitivity labels**.  Pilih label yang terdaftar:  **Confidential Finance** dan **Highly Confidential\Project – Falcon**, pilih **Add**, lalu **Next**.
-    1. Indikator dan kejadian pemicu: Tinjau informasi selengkapnya.  Kebijakan dipicu oleh pengguna yang melakukan aktivitas eksfiltrasi seperti yang ditentukan (pilih ikon informasi pada setiap poin untuk informasi selengkapnya) ATAU kecocokan dengan kebijakan Pencegahan Kebocoran Data (DLP) yang ada.  Karena Anda tidak memiliki kebijakan DLP yang dikonfigurasi sebagai bagian dari latihan ini, pilih **User performs an exfiltration activity**.  Gulir ke bawah untuk melihat apa yang dipilih secara otomatis.  Perhatikan bahwa indikator kebijakan yang Anda aktifkan di tugas sebelumnya telah dicentang.   Harap diingat bahwa indikator ini hanya akan diaktifkan setelah kebijakan dipicu dan aktivitas apa pun yang dipetakan ke indikator ini akan digunakan saat menghitung skor risiko pengguna.  Selain itu, Deteksi urutan telah diaktifkan.  Jika urutan kegiatan seperti yang ditentukan telah terdeteksi, maka hal itu menunjukkan risiko yang lebih besar.  Pilih ikon informasi untuk informasi selengkapnya tentang indikator mana yang diperlukan.  Pilihan ini mengharuskan indikator tertentu dipilih dan perangkat sudah terpasang.  Agar lebih mudah dan karena kita tidak memiliki perangkat yang terpasang pada penyewa, hapus centang **Select all**.  Klik **Next**.
+    1. Pemicu: Tinjau informasi selengkapnya.  Kebijakan dipicu oleh pengguna yang melakukan aktivitas eksfiltrasi seperti yang ditentukan (pilih ikon informasi pada setiap poin untuk informasi selengkapnya) ATAU kecocokan dengan kebijakan Pencegahan Kebocoran Data (DLP) yang ada.  Karena Anda tidak memiliki kebijakan DLP yang dikonfigurasi sebagai bagian dari latihan ini, pilih **User performs an exfiltration activity**.  Perhatikan bahwa indikator kebijakan yang Anda aktifkan di tugas sebelumnya telah dicentang.   Harap diingat bahwa indikator ini hanya akan diaktifkan setelah kebijakan dipicu dan aktivitas apa pun yang dipetakan ke indikator ini akan digunakan saat menghitung skor risiko pengguna. Klik **Next**.
     1. Ambang Indikator:  di sini, Anda dapat menentukan ambang default atau kustom yang terkait dengan indikator.  Harap diingat bahwa indikator diaktifkan hanya setelah pemicu kebijakan terjadi, sehingga ambang batas ini tidak memengaruhi saat kebijakan dipicu. Pilih **Specify custom thresholds**, Dengan memilih opsi ini, Anda dapat melihat nilai default saat ini. Biarkan pengaturan default, lalu klik **Next**.  
+    1. Indikator: Perhatikan bahwa semua indikator Office yang Anda aktifkan di tugas sebelumnya telah dipilih.  Gulir ke seluruh halaman untuk melihat indikator kebijakan lain yang tersedia dan item lain yang dipilih secara otomatis.   Deteksi urutan telah diaktifkan.  Jika urutan kegiatan seperti yang ditentukan telah terdeteksi, maka hal itu menunjukkan risiko yang lebih besar.  Arahkan mouse ke ikon informasi untuk melihat informasi yang dihapus.  Item ini mengharuskan indikator tertentu dipilih dan perangkat sudah terpasang.  Agar lebih mudah dan karena kita tidak memiliki perangkat yang terpasang pada penyewa, hapus centang **Select all**. 
     1. Penyelesaian:  tinjau pengaturan, pilih **Submit**, lalu pilih **Done**.
 
 1. Anda kembali ke tab Kebijakan di halaman Manajemen risiko dari dalam.  Kebijakan yang baru saja Anda buat akan dicantumkan.  
 
-1. Pada kebijakan yang baru saja Anda buat, bidang “Pengguna dalam cakupan” mewakili pengguna yang saat ini diberi skor risiko oleh kebijakan.  Menetapkan skor risiko kepada pengguna terjadi saat kebijakan dipicu, oleh karena itu nilainya menunjukkan 0.  Admin dapat mengonfigurasi kebijakan untuk mulai menetapkan skor risiko kepada pengguna tertentu, berdasarkan aktivitas yang terdeteksi oleh kebijakan yang Anda pilih, DAN mengabaikan persyaratan bahwa kejadian pemicu terdeteksi terlebih dahulu.  Untuk melakukan hal ini, pilih lingkaran kosong di samping nama kebijakan untuk memilih kebijakan, lalu pilih **Start scoring activity for users**, yang ditunjukkan di atas tabel kebijakan.  Isi setiap bidang, lalu pilih **Start scoring activity**.  Diperlukan waktu 24 jam bagi pengguna untuk muncul di tab 'Pengguna'. Setelah itu, Anda dapat memilih pengguna dari tab untuk meninjau aktivitas yang terdeteksi.
+1. Pada kebijakan yang baru saja Anda buat, bidang “Pengguna dalam cakupan” mewakili pengguna yang saat ini diberi skor risiko oleh kebijakan.  Menetapkan skor risiko kepada pengguna terjadi saat kebijakan dipicu, oleh karena itu nilainya menunjukkan 0.  Admin dapat mengonfigurasi kebijakan untuk mulai menetapkan skor risiko kepada pengguna tertentu, berdasarkan aktivitas yang terdeteksi oleh kebijakan yang Anda pilih, DAN mengabaikan persyaratan bahwa kejadian pemicu terdeteksi terlebih dahulu.  Untuk melakukan hal ini, pilih lingkaran kosong di samping nama kebijakan untuk memilih kebijakan, lalu pilih **Start scoring activity for users**, yang ditunjukkan di atas tabel kebijakan.  Isi setiap bidang, lalu pilih **Start scoring activity**.  Diperlukan waktu 24 jam bagi pengguna untuk muncul di tab 'Pengguna'. Setelah itu, Anda dapat memilih pengguna dari tab untuk meninjau aktivitas yang terdeteksi.  Pilih **Close** di bagian bawah jendela.
 
 #### Tinjauan
 Di lab ini, Anda telah mempelajari proses penyiapan kebijakan risiko dari dalam, bersama dengan prasyarat dasar untuk mengonfigurasi dan menggunakan kebijakan manajemen risiko dari dalam.

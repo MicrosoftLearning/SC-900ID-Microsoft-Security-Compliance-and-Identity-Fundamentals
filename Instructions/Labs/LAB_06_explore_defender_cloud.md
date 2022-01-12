@@ -27,7 +27,7 @@ Pada lab ini, Anda akan menjelajahi Pertahanan Microsoft dan mempelajari cara Sk
     1. Untuk memastikan bahwa Anda mendapatkan visibilitas yang luas tentang penyewa, tetapkan diri Anda sebagai pemegang peran penting.  Pilih **Security Admin** lalu pilih **Get access** di bagian bawah halaman.
     1. Anda mungkin akan melihat pesan berikut: Grup manajemen akar tidak ada.  Sesuai deskripsi, sistem akan membuat grup untuk Anda.  Hal ini bisa memerlukan waktu hingga 15 menit untuk selesai (tetapi biasanya lebih cepat).  Setelah akses didapatkan, klik **Microsoft Defender for Cloud** di ujung kiri atas halaman, di atas yang bertuliskan Dapatkan izin, lalu segarkan halaman gambaran umum Microsoft Defender for Cloud.
 
-1. Informasi di bagian atas halaman mencatumkan jumlah langganan Azure, jumlah Sumber daya yang dinilai, jumlah rekomendasi yang aktif, serta peringatan keamanan.  Di bagian isi halaman ada kartu yang mewakili Skor aman, Kepatuhan terhadap peraturan, Wawasan, Azure Defender, dan banyak lainnya.  
+1. Informasi di bagian atas halaman mencatumkan jumlah langganan Azure, jumlah Sumber daya yang dinilai, jumlah rekomendasi yang aktif, serta peringatan keamanan.  Di bagian isi halaman, ada kartu yang mewakili Skor aman, Kepatuhan terhadap peraturan, Wawasan, dan banyak lagi.  
 
 1. Dari bagian atas halaman, pilih **Assessed resources**.  (Perhatikan bahwa ini sama dengan memilih Inventaris dari panel navigasi kiri halaman beranda Pertahanan Microsoft untuk Cloud).
     1. Ini membawa Anda ke halaman **Inventory** yang menunjukkan langganan Azure pass Anda.  Pilih **Azure Pass – Sponsorship**.
@@ -74,3 +74,4 @@ Pada lab ini, Anda akan menjelajahi Pertahanan Microsoft dan mempelajari cara Sk
 
 #### Tinjauan
 Pada lab ini, Anda telah menjelajahi Pertahanan Microsoft untuk Cloud dan mempelajari bahwa  Skor Aman Azure dapat digunakan untuk meningkatkan kondisi keamanan organsisasi Anda.
+
